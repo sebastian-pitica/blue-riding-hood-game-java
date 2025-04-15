@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.Dijkstra.Node.buildMapNodes</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d5/ddf/a00224_abc863d1f3e9234003a859e910ed95c3f.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="abc863d1f3e9234003a859e910ed95c3f" name="abc863d1f3e9234003a859e910ed95c3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc863d1f3e9234003a859e910ed95c3f">&#9670;&nbsp;</a></span>buildMapNodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">private static void buildMapNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construiește nodurile hărții curente. </p>
+<div class="fragment"><div class="line"><span class="lineno">   57</span>                                        {</div>
+<div class="line"><span class="lineno">   58</span>        <span class="keywordtype">int</span>[][] map = <a class="code hl_variable" href="../../d5/ddf/a00224_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">currentMap</a>.<a class="code hl_function" href="../../df/df1/a00340_a0e2ec74d8d1d89e6d18786a0d55b644c.html#a0e2ec74d8d1d89e6d18786a0d55b644c">getMatrix</a>();</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; map.length; ++i) {</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; map[0].length; ++j) {</div>
+<div class="line"><span class="lineno">   63</span>                <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d5/ddf/a00224_a0c5e9ea7a2dfd6f2f66f3b17677f3268.html#a0c5e9ea7a2dfd6f2f66f3b17677f3268">up</a> = -1, <a class="code hl_variable" href="../../d5/ddf/a00224_ad76029f3f86af51e8b53cf73512dc948.html#ad76029f3f86af51e8b53cf73512dc948">down</a> = -1, <a class="code hl_variable" href="../../d5/ddf/a00224_acbfc8c4e953933a33ecedead4f833cf9.html#acbfc8c4e953933a33ecedead4f833cf9">left</a> = -1, <a class="code hl_variable" href="../../d5/ddf/a00224_a8d5173096d59f2b3acecef279fdf50e6.html#a8d5173096d59f2b3acecef279fdf50e6">right</a> = -1;</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>                <span class="keywordflow">if</span> (map[i][j] == 1) {</div>
+<div class="line"><span class="lineno">   66</span>                    <span class="keywordtype">int</span> <a class="code hl_variable" href="../../d5/ddf/a00224_a899c1b74df7f8fda2fcd2c85d9185da8.html#a899c1b74df7f8fda2fcd2c85d9185da8">value</a> = i * 100 + j;</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>                    <span class="keywordflow">if</span> (((i - 1) &gt;= 0) &amp;&amp; map[i - 1][j] == 1) {</div>
+<div class="line"><span class="lineno">   69</span>                        <a class="code hl_variable" href="../../d5/ddf/a00224_a0c5e9ea7a2dfd6f2f66f3b17677f3268.html#a0c5e9ea7a2dfd6f2f66f3b17677f3268">up</a> = (i - 1) * 100 + j;</div>
+<div class="line"><span class="lineno">   70</span>                    }</div>
+<div class="line"><span class="lineno">   71</span>                    <span class="keywordflow">if</span> (((i + 1)) &lt; map.length &amp;&amp; map[i + 1][j] == 1) {</div>
+<div class="line"><span class="lineno">   72</span>                        <a class="code hl_variable" href="../../d5/ddf/a00224_ad76029f3f86af51e8b53cf73512dc948.html#ad76029f3f86af51e8b53cf73512dc948">down</a> = (i + 1) * 100 + j;</div>
+<div class="line"><span class="lineno">   73</span>                    }</div>
+<div class="line"><span class="lineno">   74</span>                    <span class="keywordflow">if</span> ((j - 1) &gt;= 0 &amp;&amp; map[i][j - 1] == 1) {</div>
+<div class="line"><span class="lineno">   75</span>                        <a class="code hl_variable" href="../../d5/ddf/a00224_acbfc8c4e953933a33ecedead4f833cf9.html#acbfc8c4e953933a33ecedead4f833cf9">left</a> = i * 100 + j - 1;</div>
+<div class="line"><span class="lineno">   76</span>                    }</div>
+<div class="line"><span class="lineno">   77</span>                    <span class="keywordflow">if</span> ((j + 1) &lt; map[0].length &amp;&amp; map[i][j + 1] == 1) {</div>
+<div class="line"><span class="lineno">   78</span>                        <a class="code hl_variable" href="../../d5/ddf/a00224_a8d5173096d59f2b3acecef279fdf50e6.html#a8d5173096d59f2b3acecef279fdf50e6">right</a> = i * 100 + j + 1;</div>
+<div class="line"><span class="lineno">   79</span>                    }</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>                    <a class="code hl_variable" href="../../d5/ddf/a00224_a608a586e451d7b142960358b61a75830.html#a608a586e451d7b142960358b61a75830">mapNodes</a>.put(<a class="code hl_variable" href="../../d5/ddf/a00224_a608a586e451d7b142960358b61a75830.html#a608a586e451d7b142960358b61a75830">mapNodes</a>.size(), <span class="keyword">new</span> <a class="code hl_function" href="../../d5/ddf/a00224_a9ae26790466ab82bbd538c5e866f2125.html#a9ae26790466ab82bbd538c5e866f2125">Node</a>(<a class="code hl_variable" href="../../d5/ddf/a00224_a608a586e451d7b142960358b61a75830.html#a608a586e451d7b142960358b61a75830">mapNodes</a>.size(), <a class="code hl_variable" href="../../d5/ddf/a00224_a899c1b74df7f8fda2fcd2c85d9185da8.html#a899c1b74df7f8fda2fcd2c85d9185da8">value</a>, <a class="code hl_variable" href="../../d5/ddf/a00224_acbfc8c4e953933a33ecedead4f833cf9.html#acbfc8c4e953933a33ecedead4f833cf9">left</a>, <a class="code hl_variable" href="../../d5/ddf/a00224_a8d5173096d59f2b3acecef279fdf50e6.html#a8d5173096d59f2b3acecef279fdf50e6">right</a>, <a class="code hl_variable" href="../../d5/ddf/a00224_a0c5e9ea7a2dfd6f2f66f3b17677f3268.html#a0c5e9ea7a2dfd6f2f66f3b17677f3268">up</a>, <a class="code hl_variable" href="../../d5/ddf/a00224_ad76029f3f86af51e8b53cf73512dc948.html#ad76029f3f86af51e8b53cf73512dc948">down</a>));</div>
+<div class="line"><span class="lineno">   82</span>                    <a class="code hl_variable" href="../../d5/ddf/a00224_a91e639ef32bc7eb426da1c2a635a2e3b.html#a91e639ef32bc7eb426da1c2a635a2e3b">nodeDictionary</a>.put(<a class="code hl_variable" href="../../d5/ddf/a00224_a91e639ef32bc7eb426da1c2a635a2e3b.html#a91e639ef32bc7eb426da1c2a635a2e3b">nodeDictionary</a>.size(), <a class="code hl_variable" href="../../d5/ddf/a00224_a899c1b74df7f8fda2fcd2c85d9185da8.html#a899c1b74df7f8fda2fcd2c85d9185da8">value</a>);</div>
+<div class="line"><span class="lineno">   83</span>                }</div>
+<div class="line"><span class="lineno">   84</span>            }</div>
+<div class="line"><span class="lineno">   85</span>        }</div>
+<div class="line"><span class="lineno">   86</span>    }</div>
+<div class="ttc" id="aa00224_a0c5e9ea7a2dfd6f2f66f3b17677f3268_html_a0c5e9ea7a2dfd6f2f66f3b17677f3268"><div class="ttname"><a href="../../d5/ddf/a00224_a0c5e9ea7a2dfd6f2f66f3b17677f3268.html#a0c5e9ea7a2dfd6f2f66f3b17677f3268">BlueRidingHood.Dijkstra.Node.up</a></div><div class="ttdeci">final int up</div><div class="ttdef"><b>Definition:</b> Node.java:31</div></div>
+<div class="ttc" id="aa00224_a4a2d0a81d6facd2868292835662c94cb_html_a4a2d0a81d6facd2868292835662c94cb"><div class="ttname"><a href="../../d5/ddf/a00224_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">BlueRidingHood.Dijkstra.Node.currentMap</a></div><div class="ttdeci">static Map currentMap</div><div class="ttdef"><b>Definition:</b> Node.java:27</div></div>
+<div class="ttc" id="aa00224_a608a586e451d7b142960358b61a75830_html_a608a586e451d7b142960358b61a75830"><div class="ttname"><a href="../../d5/ddf/a00224_a608a586e451d7b142960358b61a75830.html#a608a586e451d7b142960358b61a75830">BlueRidingHood.Dijkstra.Node.mapNodes</a></div><div class="ttdeci">static LinkedHashMap&lt; Integer, Node &gt; mapNodes</div><div class="ttdef"><b>Definition:</b> Node.java:22</div></div>
+<div class="ttc" id="aa00224_a899c1b74df7f8fda2fcd2c85d9185da8_html_a899c1b74df7f8fda2fcd2c85d9185da8"><div class="ttname"><a href="../../d5/ddf/a00224_a899c1b74df7f8fda2fcd2c85d9185da8.html#a899c1b74df7f8fda2fcd2c85d9185da8">BlueRidingHood.Dijkstra.Node.value</a></div><div class="ttdeci">final int value</div><div class="ttdef"><b>Definition:</b> Node.java:29</div></div>
+<div class="ttc" id="aa00224_a8d5173096d59f2b3acecef279fdf50e6_html_a8d5173096d59f2b3acecef279fdf50e6"><div class="ttname"><a href="../../d5/ddf/a00224_a8d5173096d59f2b3acecef279fdf50e6.html#a8d5173096d59f2b3acecef279fdf50e6">BlueRidingHood.Dijkstra.Node.right</a></div><div class="ttdeci">final int right</div><div class="ttdef"><b>Definition:</b> Node.java:34</div></div>
+<div class="ttc" id="aa00224_a91e639ef32bc7eb426da1c2a635a2e3b_html_a91e639ef32bc7eb426da1c2a635a2e3b"><div class="ttname"><a href="../../d5/ddf/a00224_a91e639ef32bc7eb426da1c2a635a2e3b.html#a91e639ef32bc7eb426da1c2a635a2e3b">BlueRidingHood.Dijkstra.Node.nodeDictionary</a></div><div class="ttdeci">static HashMap&lt; Integer, Integer &gt; nodeDictionary</div><div class="ttdef"><b>Definition:</b> Node.java:23</div></div>
+<div class="ttc" id="aa00224_a9ae26790466ab82bbd538c5e866f2125_html_a9ae26790466ab82bbd538c5e866f2125"><div class="ttname"><a href="../../d5/ddf/a00224_a9ae26790466ab82bbd538c5e866f2125.html#a9ae26790466ab82bbd538c5e866f2125">BlueRidingHood.Dijkstra.Node.Node</a></div><div class="ttdeci">Node(int indice, int value, int left, int right, int up, int down)</div><div class="ttdoc">Constructorul clasei Node.</div><div class="ttdef"><b>Definition:</b> Node.java:45</div></div>
+<div class="ttc" id="aa00224_acbfc8c4e953933a33ecedead4f833cf9_html_acbfc8c4e953933a33ecedead4f833cf9"><div class="ttname"><a href="../../d5/ddf/a00224_acbfc8c4e953933a33ecedead4f833cf9.html#acbfc8c4e953933a33ecedead4f833cf9">BlueRidingHood.Dijkstra.Node.left</a></div><div class="ttdeci">final int left</div><div class="ttdef"><b>Definition:</b> Node.java:33</div></div>
+<div class="ttc" id="aa00224_ad76029f3f86af51e8b53cf73512dc948_html_ad76029f3f86af51e8b53cf73512dc948"><div class="ttname"><a href="../../d5/ddf/a00224_ad76029f3f86af51e8b53cf73512dc948.html#ad76029f3f86af51e8b53cf73512dc948">BlueRidingHood.Dijkstra.Node.down</a></div><div class="ttdeci">final int down</div><div class="ttdef"><b>Definition:</b> Node.java:32</div></div>
+<div class="ttc" id="aa00340_a0e2ec74d8d1d89e6d18786a0d55b644c_html_a0e2ec74d8d1d89e6d18786a0d55b644c"><div class="ttname"><a href="../../df/df1/a00340_a0e2ec74d8d1d89e6d18786a0d55b644c.html#a0e2ec74d8d1d89e6d18786a0d55b644c">BlueRidingHood.Map.Map.getMatrix</a></div><div class="ttdeci">int[][] getMatrix()</div><div class="ttdef"><b>Definition:</b> Map.java:97</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../d5/ddf/a00224_a9ae26790466ab82bbd538c5e866f2125.html#a9ae26790466ab82bbd538c5e866f2125">Node.Node()</a>, <a class="el" href="../../d5/ddf/a00224_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">Node.currentMap</a>, <a class="el" href="../../d5/ddf/a00224_ad76029f3f86af51e8b53cf73512dc948.html#ad76029f3f86af51e8b53cf73512dc948">Node.down</a>, <a class="el" href="../../df/df1/a00340_a0e2ec74d8d1d89e6d18786a0d55b644c.html#a0e2ec74d8d1d89e6d18786a0d55b644c">Map.getMatrix()</a>, <a class="el" href="../../d5/ddf/a00224_acbfc8c4e953933a33ecedead4f833cf9.html#acbfc8c4e953933a33ecedead4f833cf9">Node.left</a>, <a class="el" href="../../d5/ddf/a00224_a608a586e451d7b142960358b61a75830.html#a608a586e451d7b142960358b61a75830">Node.mapNodes</a>, <a class="el" href="../../d5/ddf/a00224_a91e639ef32bc7eb426da1c2a635a2e3b.html#a91e639ef32bc7eb426da1c2a635a2e3b">Node.nodeDictionary</a>, <a class="el" href="../../d5/ddf/a00224_a8d5173096d59f2b3acecef279fdf50e6.html#a8d5173096d59f2b3acecef279fdf50e6">Node.right</a>, <a class="el" href="../../d5/ddf/a00224_a0c5e9ea7a2dfd6f2f66f3b17677f3268.html#a0c5e9ea7a2dfd6f2f66f3b17677f3268">Node.up</a> şi <a class="el" href="../../d5/ddf/a00224_a899c1b74df7f8fda2fcd2c85d9185da8.html#a899c1b74df7f8fda2fcd2c85d9185da8">Node.value</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d5/ddf/a00224_a57070eee9d3741cff5bc4648a45f5f63.html#a57070eee9d3741cff5bc4648a45f5f63">Node.getPath()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><a class="el" href="../../d8/df1/a00174.html">Dijkstra</a></li><li class="navelem"><a class="el" href="../../d5/ddf/a00224.html">Node</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

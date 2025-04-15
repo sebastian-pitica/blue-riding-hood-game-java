@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.Factories.EntitiesFactory.produceWolfs</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d9/dd6/a00272_a924478c08f5ca8933b67ec40a6b33805.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="a924478c08f5ca8933b67ec40a6b33805" name="a924478c08f5ca8933b67ec40a6b33805"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924478c08f5ca8933b67ec40a6b33805">&#9670;&nbsp;</a></span>produceWolfs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">public CopyOnWriteArrayList&lt; <a class="el" href="../../d6/d08/a00244.html">Wolf</a> &gt; produceWolfs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returnează gărzi. </p>
+<p >Redă sunetul de creare al gărzilor. </p>
+<div class="fragment"><div class="line"><span class="lineno">  134</span>                                                     {</div>
+<div class="line"><span class="lineno">  135</span>        CopyOnWriteArrayList&lt;Wolf&gt; result = <span class="keyword">new</span> CopyOnWriteArrayList&lt;&gt;();</div>
+<div class="line"><span class="lineno">  136</span> </div>
+<div class="line"><span class="lineno">  137</span>        LinkedList&lt;Integer&gt; availablePositions = <a class="code hl_variable" href="../../d9/dd6/a00272_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">currentMap</a>.<a class="code hl_function" href="../../df/df1/a00340_af9c2ef6838f42374247801a72412fe96.html#af9c2ef6838f42374247801a72412fe96">getAllAvailablePositions</a>();</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordtype">int</span> length = availablePositions.size();</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>        HashSet&lt;Integer&gt; actualPositions = <span class="keyword">new</span> HashSet&lt;&gt;();</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>        <span class="keywordflow">while</span> (actualPositions.size() != 3) {</div>
+<div class="line"><span class="lineno">  144</span>            actualPositions.add(availablePositions.get(<a class="code hl_variable" href="../../d9/dd6/a00272_a2d15919abc98875521843df9d86d634d.html#a2d15919abc98875521843df9d86d634d">randomGenerator</a>.nextInt(length)));</div>
+<div class="line"><span class="lineno">  145</span>        }</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> position : actualPositions) {</div>
+<div class="line"><span class="lineno">  148</span>            <span class="keywordtype">int</span> y = position / 100;</div>
+<div class="line"><span class="lineno">  149</span>            <span class="keywordtype">int</span> x = position % 100;</div>
+<div class="line"><span class="lineno">  150</span> </div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">if</span> (x &gt;= 0 &amp;&amp; y &gt;= 0) {</div>
+<div class="line"><span class="lineno">  152</span>                <a class="code hl_class" href="../../d6/d08/a00244.html">Wolf</a> wolf = <span class="keyword">new</span> <a class="code hl_class" href="../../d6/d08/a00244.html">Wolf</a>(x, y);</div>
+<div class="line"><span class="lineno">  153</span>                result.add(wolf);</div>
+<div class="line"><span class="lineno">  154</span>                <a class="code hl_variable" href="../../d9/dd6/a00272_ad41f000e5b5a71bdde0c35df484fa71c.html#ad41f000e5b5a71bdde0c35df484fa71c">player</a>.<a class="code hl_function" href="../../dd/dd7/a00260_af14a0aec668f76562146cd4c295747b8.html#af14a0aec668f76562146cd4c295747b8">attach</a>(wolf);</div>
+<div class="line"><span class="lineno">  155</span>            }</div>
+<div class="line"><span class="lineno">  156</span>        }</div>
+<div class="line"><span class="lineno">  157</span> </div>
+<div class="line"><span class="lineno">  158</span>        <a class="code hl_variable" href="../../d9/dd6/a00272_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">playSoundEffect</a>(Sounds.WOLFSHOWL.ordinal());</div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">return</span> result;</div>
+<div class="line"><span class="lineno">  160</span>    }</div>
+<div class="ttc" id="aa00204_a57266610c9df7a305e03c12fd0fc1bb0_html_a57266610c9df7a305e03c12fd0fc1bb0"><div class="ttname"><a href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">BlueRidingHood.Audio.AudioHandler.playSoundEffect</a></div><div class="ttdeci">void playSoundEffect(int index)</div><div class="ttdoc">Pornește redarea unică a unui efect audio.</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:111</div></div>
+<div class="ttc" id="aa00244_html"><div class="ttname"><a href="../../d6/d08/a00244.html">BlueRidingHood.Entities.BasicEnemieEntities.Wolf</a></div><div class="ttdoc">Implementează entitatea garda lui ‘Za Walfo’.</div><div class="ttdef"><b>Definition:</b> Wolf.java:20</div></div>
+<div class="ttc" id="aa00260_af14a0aec668f76562146cd4c295747b8_html_af14a0aec668f76562146cd4c295747b8"><div class="ttname"><a href="../../dd/dd7/a00260_af14a0aec668f76562146cd4c295747b8.html#af14a0aec668f76562146cd4c295747b8">BlueRidingHood.Entities.Player.attach</a></div><div class="ttdeci">void attach(Observer observer)</div><div class="ttdoc">Atașează observatorul dat.</div><div class="ttdef"><b>Definition:</b> Player.java:299</div></div>
+<div class="ttc" id="aa00272_a2d15919abc98875521843df9d86d634d_html_a2d15919abc98875521843df9d86d634d"><div class="ttname"><a href="../../d9/dd6/a00272_a2d15919abc98875521843df9d86d634d.html#a2d15919abc98875521843df9d86d634d">BlueRidingHood.Factories.EntitiesFactory.randomGenerator</a></div><div class="ttdeci">final Random randomGenerator</div><div class="ttdef"><b>Definition:</b> EntitiesFactory.java:36</div></div>
+<div class="ttc" id="aa00272_a39eaf96958371cddfdbda6752d9dc2fb_html_a39eaf96958371cddfdbda6752d9dc2fb"><div class="ttname"><a href="../../d9/dd6/a00272_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">BlueRidingHood.Factories.EntitiesFactory.audioHandler</a></div><div class="ttdeci">static AudioHandler audioHandler</div><div class="ttdef"><b>Definition:</b> EntitiesFactory.java:33</div></div>
+<div class="ttc" id="aa00272_a4a2d0a81d6facd2868292835662c94cb_html_a4a2d0a81d6facd2868292835662c94cb"><div class="ttname"><a href="../../d9/dd6/a00272_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">BlueRidingHood.Factories.EntitiesFactory.currentMap</a></div><div class="ttdeci">Map currentMap</div><div class="ttdef"><b>Definition:</b> EntitiesFactory.java:35</div></div>
+<div class="ttc" id="aa00272_ad41f000e5b5a71bdde0c35df484fa71c_html_ad41f000e5b5a71bdde0c35df484fa71c"><div class="ttname"><a href="../../d9/dd6/a00272_ad41f000e5b5a71bdde0c35df484fa71c.html#ad41f000e5b5a71bdde0c35df484fa71c">BlueRidingHood.Factories.EntitiesFactory.player</a></div><div class="ttdeci">final Player player</div><div class="ttdef"><b>Definition:</b> EntitiesFactory.java:34</div></div>
+<div class="ttc" id="aa00340_af9c2ef6838f42374247801a72412fe96_html_af9c2ef6838f42374247801a72412fe96"><div class="ttname"><a href="../../df/df1/a00340_af9c2ef6838f42374247801a72412fe96.html#af9c2ef6838f42374247801a72412fe96">BlueRidingHood.Map.Map.getAllAvailablePositions</a></div><div class="ttdeci">LinkedList&lt; Integer &gt; getAllAvailablePositions()</div><div class="ttdoc">Obține și returnează pozițiile disponibile pentru crearea entităților.</div><div class="ttdef"><b>Definition:</b> Map.java:106</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../dd/dd7/a00260_af14a0aec668f76562146cd4c295747b8.html#af14a0aec668f76562146cd4c295747b8">Player.attach()</a>, <a class="el" href="../../d9/dd6/a00272_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">EntitiesFactory.audioHandler</a>, <a class="el" href="../../d9/dd6/a00272_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">EntitiesFactory.currentMap</a>, <a class="el" href="../../df/df1/a00340_af9c2ef6838f42374247801a72412fe96.html#af9c2ef6838f42374247801a72412fe96">Map.getAllAvailablePositions()</a>, <a class="el" href="../../d9/dd6/a00272_ad41f000e5b5a71bdde0c35df484fa71c.html#ad41f000e5b5a71bdde0c35df484fa71c">EntitiesFactory.player</a>, <a class="el" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">AudioHandler.playSoundEffect()</a>, <a class="el" href="../../d9/dd6/a00272_a2d15919abc98875521843df9d86d634d.html#a2d15919abc98875521843df9d86d634d">EntitiesFactory.randomGenerator</a> şi <a class="el" href="../../db/d7b/a00296_ab4b40fa2f277e5fd521f4b3e13c39172.html#ab4b40fa2f277e5fd521f4b3e13c39172">Sounds.WOLFSHOWL</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d9/dd6/a00272_adec9c869250d1faa40af669437af6fd9.html#adec9c869250d1faa40af669437af6fd9">EntitiesFactory.produceMapEntities()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><a class="el" href="../../dd/d4c/a00177.html">Factories</a></li><li class="navelem"><a class="el" href="../../d9/dd6/a00272.html">EntitiesFactory</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

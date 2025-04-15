@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.State.Game.HomeState.HomeState</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d8/d21/a00368_ae5fb96244403304dbc0d800b77f7f3af.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="ae5fb96244403304dbc0d800b77f7f3af" name="ae5fb96244403304dbc0d800b77f7f3af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5fb96244403304dbc0d800b77f7f3af">&#9670;&nbsp;</a></span>HomeState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d8/d21/a00368.html">HomeState</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructorul clasei <a class="el" href="../../d8/d21/a00368.html" title="Starea de acasă (implicită) a jocului.">HomeState</a>. </p>
+<p >Inițializează referințele și variabilele locale, alături de aseturile secundare. </p>
+<div class="fragment"><div class="line"><span class="lineno">   36</span>                          {</div>
+<div class="line"><span class="lineno">   37</span>        Game game = Game.provideGame();</div>
+<div class="line"><span class="lineno">   38</span>        Assets.InitSecond();</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_variable" href="../../d8/d21/a00368_a627969c79916017642dbbf2af9fe9294.html#a627969c79916017642dbbf2af9fe9294">homeMenu</a> = Assets.stateImages[GameStates.HOMEMENU.ordinal()];</div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_variable" href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">gameWindow</a> = game.getGameWindow();</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a> = AudioHandler.<a class="code hl_function" href="../../d1/d72/a00204_addc47e3c47ee2567c38b27a5b5a0b2ba.html#addc47e3c47ee2567c38b27a5b5a0b2ba">getAudioHandler</a>();</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../dc/d59/a00364_a05b61abc725465a1b812fd5f73fc2086.html#a05b61abc725465a1b812fd5f73fc2086">observers</a> = <span class="keyword">new</span> LinkedList&lt;&gt;();</div>
+<div class="line"><span class="lineno">   43</span>        <a class="code hl_variable" href="../../dc/d59/a00364_a31ae01d7e9c2bb00a1249c41a4755c03.html#a31ae01d7e9c2bb00a1249c41a4755c03">arial100</a> = <span class="keyword">new</span> Font(<span class="stringliteral">&quot;Arial Bold&quot;</span>, Font.BOLD, 100);</div>
+<div class="line"><span class="lineno">   44</span>        <a class="code hl_variable" href="../../dc/d59/a00364_a306aa36d3ba279b8638a0d6bfa78a0e4.html#a306aa36d3ba279b8638a0d6bfa78a0e4">arial40</a> = <span class="keyword">new</span> Font(<span class="stringliteral">&quot;Arial Bold&quot;</span>, Font.BOLD, 40);</div>
+<div class="line"><span class="lineno">   45</span>        <a class="code hl_variable" href="../../dc/d59/a00364_a1c6db344dad5ab6152de14f0051ac470.html#a1c6db344dad5ab6152de14f0051ac470">decimalFormat</a> = <span class="keyword">new</span> DecimalFormat(<span class="stringliteral">&quot;#0.00&quot;</span>);</div>
+<div class="line"><span class="lineno">   46</span>        <a class="code hl_function" href="../../dc/d59/a00364_a2f901164a3c8d1bf5f0aa3b1f1fe46a3.html#a2f901164a3c8d1bf5f0aa3b1f1fe46a3">checkedSave</a>();</div>
+<div class="line"><span class="lineno">   47</span>    }</div>
+<div class="ttc" id="aa00204_addc47e3c47ee2567c38b27a5b5a0b2ba_html_addc47e3c47ee2567c38b27a5b5a0b2ba"><div class="ttname"><a href="../../d1/d72/a00204_addc47e3c47ee2567c38b27a5b5a0b2ba.html#addc47e3c47ee2567c38b27a5b5a0b2ba">BlueRidingHood.Audio.AudioHandler.getAudioHandler</a></div><div class="ttdeci">static AudioHandler getAudioHandler()</div><div class="ttdoc">Returnează referința unică a handlerului audio.</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:49</div></div>
+<div class="ttc" id="aa00364_a05b61abc725465a1b812fd5f73fc2086_html_a05b61abc725465a1b812fd5f73fc2086"><div class="ttname"><a href="../../dc/d59/a00364_a05b61abc725465a1b812fd5f73fc2086.html#a05b61abc725465a1b812fd5f73fc2086">BlueRidingHood.State.Game.GameState.observers</a></div><div class="ttdeci">static LinkedList&lt; Observer &gt; observers</div><div class="ttdef"><b>Definition:</b> GameState.java:39</div></div>
+<div class="ttc" id="aa00364_a1c6db344dad5ab6152de14f0051ac470_html_a1c6db344dad5ab6152de14f0051ac470"><div class="ttname"><a href="../../dc/d59/a00364_a1c6db344dad5ab6152de14f0051ac470.html#a1c6db344dad5ab6152de14f0051ac470">BlueRidingHood.State.Game.GameState.decimalFormat</a></div><div class="ttdeci">static DecimalFormat decimalFormat</div><div class="ttdef"><b>Definition:</b> GameState.java:43</div></div>
+<div class="ttc" id="aa00364_a2f901164a3c8d1bf5f0aa3b1f1fe46a3_html_a2f901164a3c8d1bf5f0aa3b1f1fe46a3"><div class="ttname"><a href="../../dc/d59/a00364_a2f901164a3c8d1bf5f0aa3b1f1fe46a3.html#a2f901164a3c8d1bf5f0aa3b1f1fe46a3">BlueRidingHood.State.Game.GameState.checkedSave</a></div><div class="ttdeci">static void checkedSave()</div><div class="ttdoc">Verifică existența unei progres salvat și presupune că jucătorul dorește salvarea progresului în funț...</div><div class="ttdef"><b>Definition:</b> GameState.java:62</div></div>
+<div class="ttc" id="aa00364_a306aa36d3ba279b8638a0d6bfa78a0e4_html_a306aa36d3ba279b8638a0d6bfa78a0e4"><div class="ttname"><a href="../../dc/d59/a00364_a306aa36d3ba279b8638a0d6bfa78a0e4.html#a306aa36d3ba279b8638a0d6bfa78a0e4">BlueRidingHood.State.Game.GameState.arial40</a></div><div class="ttdeci">static Font arial40</div><div class="ttdef"><b>Definition:</b> GameState.java:42</div></div>
+<div class="ttc" id="aa00364_a31ae01d7e9c2bb00a1249c41a4755c03_html_a31ae01d7e9c2bb00a1249c41a4755c03"><div class="ttname"><a href="../../dc/d59/a00364_a31ae01d7e9c2bb00a1249c41a4755c03.html#a31ae01d7e9c2bb00a1249c41a4755c03">BlueRidingHood.State.Game.GameState.arial100</a></div><div class="ttdeci">static Font arial100</div><div class="ttdef"><b>Definition:</b> GameState.java:41</div></div>
+<div class="ttc" id="aa00364_a39eaf96958371cddfdbda6752d9dc2fb_html_a39eaf96958371cddfdbda6752d9dc2fb"><div class="ttname"><a href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">BlueRidingHood.State.Game.GameState.audioHandler</a></div><div class="ttdeci">static AudioHandler audioHandler</div><div class="ttdef"><b>Definition:</b> GameState.java:38</div></div>
+<div class="ttc" id="aa00364_ad4320ae13d35e2be0c2684d70c709d25_html_ad4320ae13d35e2be0c2684d70c709d25"><div class="ttname"><a href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">BlueRidingHood.State.Game.GameState.gameWindow</a></div><div class="ttdeci">static GameWindow gameWindow</div><div class="ttdef"><b>Definition:</b> GameState.java:37</div></div>
+<div class="ttc" id="aa00368_a627969c79916017642dbbf2af9fe9294_html_a627969c79916017642dbbf2af9fe9294"><div class="ttname"><a href="../../d8/d21/a00368_a627969c79916017642dbbf2af9fe9294.html#a627969c79916017642dbbf2af9fe9294">BlueRidingHood.State.Game.HomeState.homeMenu</a></div><div class="ttdeci">final Image homeMenu</div><div class="ttdef"><b>Definition:</b> HomeState.java:28</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../dc/d59/a00364_a31ae01d7e9c2bb00a1249c41a4755c03.html#a31ae01d7e9c2bb00a1249c41a4755c03">GameState.arial100</a>, <a class="el" href="../../dc/d59/a00364_a306aa36d3ba279b8638a0d6bfa78a0e4.html#a306aa36d3ba279b8638a0d6bfa78a0e4">GameState.arial40</a>, <a class="el" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">GameState.audioHandler</a>, <a class="el" href="../../dc/d59/a00364_a2f901164a3c8d1bf5f0aa3b1f1fe46a3.html#a2f901164a3c8d1bf5f0aa3b1f1fe46a3">GameState.checkedSave()</a>, <a class="el" href="../../dc/d59/a00364_a1c6db344dad5ab6152de14f0051ac470.html#a1c6db344dad5ab6152de14f0051ac470">GameState.decimalFormat</a>, <a class="el" href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">GameState.gameWindow</a>, <a class="el" href="../../d1/d72/a00204_addc47e3c47ee2567c38b27a5b5a0b2ba.html#addc47e3c47ee2567c38b27a5b5a0b2ba">AudioHandler.getAudioHandler()</a>, <a class="el" href="../../db/da2/a00300_ac808d13506194f773fe66e12188fdd7c.html#ac808d13506194f773fe66e12188fdd7c">Game.getGameWindow()</a>, <a class="el" href="../../db/dc3/a00284_a839d43191208cba6fe432a6077a9c300.html#a839d43191208cba6fe432a6077a9c300">GameStates.HOMEMENU</a>, <a class="el" href="../../d8/d21/a00368_a627969c79916017642dbbf2af9fe9294.html#a627969c79916017642dbbf2af9fe9294">HomeState.homeMenu</a>, <a class="el" href="../../d5/d0f/a00308_a113bea953583d849f9d953ff2ba9adba.html#a113bea953583d849f9d953ff2ba9adba">Assets.InitSecond()</a>, <a class="el" href="../../dc/d59/a00364_a05b61abc725465a1b812fd5f73fc2086.html#a05b61abc725465a1b812fd5f73fc2086">GameState.observers</a>, <a class="el" href="../../db/da2/a00300_a367bf92fe8f3bc9af0a8a500992fe1a2.html#a367bf92fe8f3bc9af0a8a500992fe1a2">Game.provideGame()</a> şi <a class="el" href="../../d5/d0f/a00308_a250259577e819287d034dd17b1a4e7ed.html#a250259577e819287d034dd17b1a4e7ed">Assets.stateImages</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d8/d21/a00368_adc5f7f42840d7c711efd9088e669f36e.html#adc5f7f42840d7c711efd9088e669f36e">HomeState.getHomeMenuState()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><b>State</b></li><li class="navelem"><a class="el" href="../../d8/d00/a00186.html">Game</a></li><li class="navelem"><a class="el" href="../../d8/d21/a00368.html">HomeState</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

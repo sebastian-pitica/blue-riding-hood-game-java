@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.UI.UI.draw</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('df/d15/a00416_a5c76dd9ed5c397259e924e05102abf70.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="a5c76dd9ed5c397259e924e05102abf70" name="a5c76dd9ed5c397259e924e05102abf70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c76dd9ed5c397259e924e05102abf70">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">public void draw </td>
+          <td>(</td>
+          <td class="paramtype">Graphics&#160;</td>
+          <td class="paramname"><em>graphics</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Desenează interfața utilizator: numărul actual de vieți, scorul și timpul de joc. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graphics</td><td>grafica pentru desenare. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">   79</span>                                        {</div>
+<div class="line"><span class="lineno">   80</span>        graphics.setFont(<a class="code hl_variable" href="../../df/d15/a00416_a2f9498e806fbf25a6bc4866b1c8c6c15.html#a2f9498e806fbf25a6bc4866b1c8c6c15">arial40</a>);</div>
+<div class="line"><span class="lineno">   81</span>        graphics.setColor(Color.white);</div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_variable" href="../../df/d15/a00416_aef160b7437d94056f1dc59646cd5b87d.html#aef160b7437d94056f1dc59646cd5b87d">score</a> = Player.getScore();</div>
+<div class="line"><span class="lineno">   83</span>        graphics.drawString(<span class="stringliteral">&quot;SCORE: &quot;</span> + <a class="code hl_variable" href="../../df/d15/a00416_aef160b7437d94056f1dc59646cd5b87d.html#aef160b7437d94056f1dc59646cd5b87d">score</a>, 420, 35);</div>
+<div class="line"><span class="lineno">   84</span>        graphics.drawString(<span class="stringliteral">&quot;Lives left: &quot;</span>, 20, 35);</div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_variable" href="../../df/d15/a00416_aa219f52b12250fc1267508f4a6111bb4.html#aa219f52b12250fc1267508f4a6111bb4">lostLives</a> = 5 - (<a class="code hl_variable" href="../../df/d15/a00416_adf248fd235e8cd995f9ba4e601c7b4ea.html#adf248fd235e8cd995f9ba4e601c7b4ea">resistance</a> - Player.getHitCounter()) / 3;</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">if</span>(<a class="code hl_variable" href="../../df/d15/a00416_aa219f52b12250fc1267508f4a6111bb4.html#aa219f52b12250fc1267508f4a6111bb4">lostLives</a>&lt;5) {</div>
+<div class="line"><span class="lineno">   87</span>            graphics.drawImage(Assets.lifeBar[<a class="code hl_variable" href="../../df/d15/a00416_aa219f52b12250fc1267508f4a6111bb4.html#aa219f52b12250fc1267508f4a6111bb4">lostLives</a>], 200, 0, 200, Tile.TILE_HEIGHT - 20, <span class="keyword">null</span>);</div>
+<div class="line"><span class="lineno">   88</span>        }</div>
+<div class="line"><span class="lineno">   89</span>        <a class="code hl_variable" href="../../df/d15/a00416_a68700fe145bdaf56762c6d7e22d7744a.html#a68700fe145bdaf56762c6d7e22d7744a">playtime</a> += (float) 1 / 60;</div>
+<div class="line"><span class="lineno">   90</span>        graphics.drawString(<span class="stringliteral">&quot;Playtime: &quot;</span> + <a class="code hl_variable" href="../../df/d15/a00416_a8a0db0211e80c63ed8e01c929d0a5b3c.html#a8a0db0211e80c63ed8e01c929d0a5b3c">decimalFormat</a>.format(<a class="code hl_variable" href="../../df/d15/a00416_a68700fe145bdaf56762c6d7e22d7744a.html#a68700fe145bdaf56762c6d7e22d7744a">playtime</a>), 1600, 35);</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+<div class="ttc" id="aa00416_a2f9498e806fbf25a6bc4866b1c8c6c15_html_a2f9498e806fbf25a6bc4866b1c8c6c15"><div class="ttname"><a href="../../df/d15/a00416_a2f9498e806fbf25a6bc4866b1c8c6c15.html#a2f9498e806fbf25a6bc4866b1c8c6c15">BlueRidingHood.UI.UI.arial40</a></div><div class="ttdeci">final Font arial40</div><div class="ttdef"><b>Definition:</b> UI.java:27</div></div>
+<div class="ttc" id="aa00416_a68700fe145bdaf56762c6d7e22d7744a_html_a68700fe145bdaf56762c6d7e22d7744a"><div class="ttname"><a href="../../df/d15/a00416_a68700fe145bdaf56762c6d7e22d7744a.html#a68700fe145bdaf56762c6d7e22d7744a">BlueRidingHood.UI.UI.playtime</a></div><div class="ttdeci">static float playtime</div><div class="ttdef"><b>Definition:</b> UI.java:24</div></div>
+<div class="ttc" id="aa00416_a8a0db0211e80c63ed8e01c929d0a5b3c_html_a8a0db0211e80c63ed8e01c929d0a5b3c"><div class="ttname"><a href="../../df/d15/a00416_a8a0db0211e80c63ed8e01c929d0a5b3c.html#a8a0db0211e80c63ed8e01c929d0a5b3c">BlueRidingHood.UI.UI.decimalFormat</a></div><div class="ttdeci">final DecimalFormat decimalFormat</div><div class="ttdef"><b>Definition:</b> UI.java:28</div></div>
+<div class="ttc" id="aa00416_aa219f52b12250fc1267508f4a6111bb4_html_aa219f52b12250fc1267508f4a6111bb4"><div class="ttname"><a href="../../df/d15/a00416_aa219f52b12250fc1267508f4a6111bb4.html#aa219f52b12250fc1267508f4a6111bb4">BlueRidingHood.UI.UI.lostLives</a></div><div class="ttdeci">int lostLives</div><div class="ttdef"><b>Definition:</b> UI.java:30</div></div>
+<div class="ttc" id="aa00416_adf248fd235e8cd995f9ba4e601c7b4ea_html_adf248fd235e8cd995f9ba4e601c7b4ea"><div class="ttname"><a href="../../df/d15/a00416_adf248fd235e8cd995f9ba4e601c7b4ea.html#adf248fd235e8cd995f9ba4e601c7b4ea">BlueRidingHood.UI.UI.resistance</a></div><div class="ttdeci">final int resistance</div><div class="ttdef"><b>Definition:</b> UI.java:29</div></div>
+<div class="ttc" id="aa00416_aef160b7437d94056f1dc59646cd5b87d_html_aef160b7437d94056f1dc59646cd5b87d"><div class="ttname"><a href="../../df/d15/a00416_aef160b7437d94056f1dc59646cd5b87d.html#aef160b7437d94056f1dc59646cd5b87d">BlueRidingHood.UI.UI.score</a></div><div class="ttdeci">static int score</div><div class="ttdef"><b>Definition:</b> UI.java:26</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../df/d15/a00416_a2f9498e806fbf25a6bc4866b1c8c6c15.html#a2f9498e806fbf25a6bc4866b1c8c6c15">UI.arial40</a>, <a class="el" href="../../df/d15/a00416_a8a0db0211e80c63ed8e01c929d0a5b3c.html#a8a0db0211e80c63ed8e01c929d0a5b3c">UI.decimalFormat</a>, <a class="el" href="../../dd/dd7/a00260_af73d23f2a2d478751b3154ef9d2c078a.html#af73d23f2a2d478751b3154ef9d2c078a">Player.getHitCounter()</a>, <a class="el" href="../../dd/dd7/a00260_a504dc7d3778ced91164da66a02babcfc.html#a504dc7d3778ced91164da66a02babcfc">Player.getScore()</a>, <a class="el" href="../../d5/d0f/a00308_a97aa3ad438bd24074304e93ddecf66b7.html#a97aa3ad438bd24074304e93ddecf66b7">Assets.lifeBar</a>, <a class="el" href="../../df/d15/a00416_aa219f52b12250fc1267508f4a6111bb4.html#aa219f52b12250fc1267508f4a6111bb4">UI.lostLives</a>, <a class="el" href="../../df/d15/a00416_a68700fe145bdaf56762c6d7e22d7744a.html#a68700fe145bdaf56762c6d7e22d7744a">UI.playtime</a>, <a class="el" href="../../df/d15/a00416_adf248fd235e8cd995f9ba4e601c7b4ea.html#adf248fd235e8cd995f9ba4e601c7b4ea">UI.resistance</a>, <a class="el" href="../../df/d15/a00416_aef160b7437d94056f1dc59646cd5b87d.html#aef160b7437d94056f1dc59646cd5b87d">UI.score</a> şi <a class="el" href="../../dd/de2/a00320_a85190dcaa1cfaa75791428ca41f66634.html#a85190dcaa1cfaa75791428ca41f66634">Tile.TILE_HEIGHT</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d9/dc1/a00388_ad46419b3fb4034a7d586471de53d0e0a.html#ad46419b3fb4034a7d586471de53d0e0a">PlayState.Draw()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><a class="el" href="../../da/deb/a00189.html">UI</a></li><li class="navelem"><a class="el" href="../../df/d15/a00416.html">UI</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

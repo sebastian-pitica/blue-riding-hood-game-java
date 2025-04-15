@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.Audio.AudioURLLoader.Init</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('dc/d31/a00208_af4e63bcdda8e3ef6678ddc7b6f13bda4.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="af4e63bcdda8e3ef6678ddc7b6f13bda4" name="af4e63bcdda8e3ef6678ddc7b6f13bda4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4e63bcdda8e3ef6678ddc7b6f13bda4">&#9670;&nbsp;</a></span>Init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public static void Init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inițializează vectorul cu adresele fizice pentru sunet. </p>
+<div class="fragment"><div class="line"><span class="lineno">   20</span>                              {</div>
+<div class="line"><span class="lineno">   21</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.AMBIENT.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/ambient.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   22</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.PRUN.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/running player.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   23</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.ERUN.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/running entity.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   24</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.WOLFSHOWL.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/wolfs.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   25</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.SWORDKILL.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/sword kill.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   26</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.SWORDHIT.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/sword hit.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   27</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.SWORDDRAW.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/sword draw .wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   28</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.CLICK.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/click.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   29</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.FINALROUND.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/final_round.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.GAMEOVER.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/game_over.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   31</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.LOSTSOUND.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/lostsound.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.WINSOUND.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/winsound.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   33</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.YOUWIN.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/you_win.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   34</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.LLSONG.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/llsong.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   35</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.BITE1.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/bite (1).wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   36</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.BITE2.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/bite (2).wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.BITE3.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/bite (3).wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.BITE4.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/bite (4).wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.COIN.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/coin.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.SWORDNOHIT.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/sword sound.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.SHIELD.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/shield.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.ON.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/on.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   43</span>        <a class="code hl_variable" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">soundsURL</a>[Sounds.OFF.ordinal()] = AudioURLLoader.class.getResource(<span class="stringliteral">&quot;/sounds/off.wav&quot;</span>);</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>    }</div>
+<div class="ttc" id="aa00208_a359339c217d13a1aee652a7bfb486f0b_html_a359339c217d13a1aee652a7bfb486f0b"><div class="ttname"><a href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">BlueRidingHood.Audio.AudioURLLoader.soundsURL</a></div><div class="ttdeci">static final URL[] soundsURL</div><div class="ttdef"><b>Definition:</b> AudioURLLoader.java:15</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../db/d7b/a00296_a1e6e4ef2d787a9a3a85e8e43c1da63e3.html#a1e6e4ef2d787a9a3a85e8e43c1da63e3">Sounds.AMBIENT</a>, <a class="el" href="../../db/d7b/a00296_a2e371f37a5733dd589f6ac604071e0c5.html#a2e371f37a5733dd589f6ac604071e0c5">Sounds.BITE1</a>, <a class="el" href="../../db/d7b/a00296_a5a85e9679092e7348ea80af1b64f1946.html#a5a85e9679092e7348ea80af1b64f1946">Sounds.BITE2</a>, <a class="el" href="../../db/d7b/a00296_aca97d75be279377d435273394ee14c3b.html#aca97d75be279377d435273394ee14c3b">Sounds.BITE3</a>, <a class="el" href="../../db/d7b/a00296_aff9dece8d007b21e7719187b719b0196.html#aff9dece8d007b21e7719187b719b0196">Sounds.BITE4</a>, <a class="el" href="../../db/d7b/a00296_a91fc8d0b1e6996b07c8f3f5aa647a5e2.html#a91fc8d0b1e6996b07c8f3f5aa647a5e2">Sounds.CLICK</a>, <a class="el" href="../../db/d7b/a00296_aab8e16e87a5f4bb54d92d567be979566.html#aab8e16e87a5f4bb54d92d567be979566">Sounds.COIN</a>, <a class="el" href="../../db/d7b/a00296_aec6d3c5b8a06ae4837caca94a6ed9eaa.html#aec6d3c5b8a06ae4837caca94a6ed9eaa">Sounds.ERUN</a>, <a class="el" href="../../db/d7b/a00296_a08ad603629bf1e45d405475a87603f2e.html#a08ad603629bf1e45d405475a87603f2e">Sounds.FINALROUND</a>, <a class="el" href="../../db/d7b/a00296_acbd0bd866524d7d53518dde150fd622b.html#acbd0bd866524d7d53518dde150fd622b">Sounds.GAMEOVER</a>, <a class="el" href="../../db/d7b/a00296_a0537e799f1bf7e0fd88da6344c0409e0.html#a0537e799f1bf7e0fd88da6344c0409e0">Sounds.LLSONG</a>, <a class="el" href="../../db/d7b/a00296_a4b3ae73c4ddc5c49ca4d3916650bbc63.html#a4b3ae73c4ddc5c49ca4d3916650bbc63">Sounds.LOSTSOUND</a>, <a class="el" href="../../db/d7b/a00296_aba437f58ad654d395b18d209a1a8c21c.html#aba437f58ad654d395b18d209a1a8c21c">Sounds.OFF</a>, <a class="el" href="../../db/d7b/a00296_a29bb63ba715ee27a89725069074d5665.html#a29bb63ba715ee27a89725069074d5665">Sounds.ON</a>, <a class="el" href="../../db/d7b/a00296_a5788e00e28f589601e96f2d95c55c9a8.html#a5788e00e28f589601e96f2d95c55c9a8">Sounds.PRUN</a>, <a class="el" href="../../db/d7b/a00296_a7d19dd4530a4acb0f38ff0a40f839fe1.html#a7d19dd4530a4acb0f38ff0a40f839fe1">Sounds.SHIELD</a>, <a class="el" href="../../dc/d31/a00208_a359339c217d13a1aee652a7bfb486f0b.html#a359339c217d13a1aee652a7bfb486f0b">AudioURLLoader.soundsURL</a>, <a class="el" href="../../db/d7b/a00296_a981e43394826ed81312419f1b103ecd0.html#a981e43394826ed81312419f1b103ecd0">Sounds.SWORDDRAW</a>, <a class="el" href="../../db/d7b/a00296_ab6740d636faf04367cd492bd567ab068.html#ab6740d636faf04367cd492bd567ab068">Sounds.SWORDHIT</a>, <a class="el" href="../../db/d7b/a00296_a8b5998b913d5ab9bed1c439959b5eba3.html#a8b5998b913d5ab9bed1c439959b5eba3">Sounds.SWORDKILL</a>, <a class="el" href="../../db/d7b/a00296_ab38849f309a78905c463185ddb990e8e.html#ab38849f309a78905c463185ddb990e8e">Sounds.SWORDNOHIT</a>, <a class="el" href="../../db/d7b/a00296_a6b4e822e12ddcf47cb5399cd32d9c393.html#a6b4e822e12ddcf47cb5399cd32d9c393">Sounds.WINSOUND</a>, <a class="el" href="../../db/d7b/a00296_ab4b40fa2f277e5fd521f4b3e13c39172.html#ab4b40fa2f277e5fd521f4b3e13c39172">Sounds.WOLFSHOWL</a> şi <a class="el" href="../../db/d7b/a00296_af1424f0c399783ccae5fdc019420050f.html#af1424f0c399783ccae5fdc019420050f">Sounds.YOUWIN</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d1/d72/a00204_a1e254a2e04b7dca67264e5ea62928351.html#a1e254a2e04b7dca67264e5ea62928351">AudioHandler.AudioHandler()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><a class="el" href="../../d6/dfb/a00172.html">Audio</a></li><li class="navelem"><a class="el" href="../../dc/d31/a00208.html">AudioURLLoader</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

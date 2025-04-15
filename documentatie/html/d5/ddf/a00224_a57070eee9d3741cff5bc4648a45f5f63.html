@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.Dijkstra.Node.getPath</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d5/ddf/a00224_a57070eee9d3741cff5bc4648a45f5f63.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="a57070eee9d3741cff5bc4648a45f5f63" name="a57070eee9d3741cff5bc4648a45f5f63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57070eee9d3741cff5bc4648a45f5f63">&#9670;&nbsp;</a></span>getPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">public static LinkedList&lt; Integer &gt; getPath </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>stop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returnează calea de noduri formată din valorile acestora. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>nodul de start dat prin valoarea sa. </td></tr>
+    <tr><td class="paramname">end</td><td>nodul de sfârșit dat prin valoarea sa. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  195</span>                                                                   {</div>
+<div class="line"><span class="lineno">  196</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/ddf/a00224_aa242508833c73ea2300457d6ff7f2ff0.html#aa242508833c73ea2300457d6ff7f2ff0">mapIdForData</a> != Map.getCurrentMap().getMapNr())</div>
+<div class="line"><span class="lineno">  197</span>        <span class="comment">//daca difera noua cerere de cea veche</span></div>
+<div class="line"><span class="lineno">  198</span>        {</div>
+<div class="line"><span class="lineno">  199</span>            <a class="code hl_function" href="../../d5/ddf/a00224_ab3511545bccdd382292d563f593f0c26.html#ab3511545bccdd382292d563f593f0c26">clean</a>();</div>
+<div class="line"><span class="lineno">  200</span>            <a class="code hl_function" href="../../d5/ddf/a00224_ae809d54ceb427ac0b1335e47f45fa0ee.html#ae809d54ceb427ac0b1335e47f45fa0ee">build</a>();</div>
+<div class="line"><span class="lineno">  201</span>            <a class="code hl_function" href="../../d5/ddf/a00224_abc863d1f3e9234003a859e910ed95c3f.html#abc863d1f3e9234003a859e910ed95c3f">buildMapNodes</a>();</div>
+<div class="line"><span class="lineno">  202</span>            <a class="code hl_function" href="../../d5/ddf/a00224_add49a7fb5bed45a7df22a776d4983fa6.html#add49a7fb5bed45a7df22a776d4983fa6">buildAdiMatrix</a>();</div>
+<div class="line"><span class="lineno">  203</span>        }</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">if</span> (start != <a class="code hl_variable" href="../../d5/ddf/a00224_a6d12b972dd047eff8e6c2853e972c29b.html#a6d12b972dd047eff8e6c2853e972c29b">lastStart</a> || stop != <a class="code hl_variable" href="../../d5/ddf/a00224_ad3ae4db0e11f685b062a9d795ee08ac1.html#ad3ae4db0e11f685b062a9d795ee08ac1">lastStop</a>)</div>
+<div class="line"><span class="lineno">  206</span>        <span class="comment">//daca difera noua cerere de cea veche</span></div>
+<div class="line"><span class="lineno">  207</span>        {</div>
+<div class="line"><span class="lineno">  208</span>            <a class="code hl_variable" href="../../d5/ddf/a00224_a6d12b972dd047eff8e6c2853e972c29b.html#a6d12b972dd047eff8e6c2853e972c29b">lastStart</a> = start;</div>
+<div class="line"><span class="lineno">  209</span>            <a class="code hl_variable" href="../../d5/ddf/a00224_ad3ae4db0e11f685b062a9d795ee08ac1.html#ad3ae4db0e11f685b062a9d795ee08ac1">lastStop</a> = stop;</div>
+<div class="line"><span class="lineno">  210</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/ddf/a00224_acfc19451aebbeb3bb2562d7c0e67ae86.html#acfc19451aebbeb3bb2562d7c0e67ae86">getNodeNumber</a>(start) != -1 &amp;&amp; <a class="code hl_function" href="../../d5/ddf/a00224_acfc19451aebbeb3bb2562d7c0e67ae86.html#acfc19451aebbeb3bb2562d7c0e67ae86">getNodeNumber</a>(stop) != -1) {</div>
+<div class="line"><span class="lineno">  211</span>                DijkstrasAlgorithm.dijkstra(<a class="code hl_variable" href="../../d5/ddf/a00224_ab9719152d227a884bad58e73947fe705.html#ab9719152d227a884bad58e73947fe705">adiacenteMatrix</a>, <a class="code hl_function" href="../../d5/ddf/a00224_acfc19451aebbeb3bb2562d7c0e67ae86.html#acfc19451aebbeb3bb2562d7c0e67ae86">getNodeNumber</a>(start), <a class="code hl_function" href="../../d5/ddf/a00224_acfc19451aebbeb3bb2562d7c0e67ae86.html#acfc19451aebbeb3bb2562d7c0e67ae86">getNodeNumber</a>(stop));</div>
+<div class="line"><span class="lineno">  212</span>                <a class="code hl_function" href="../../d5/ddf/a00224_a3945fecdbd157545838efa09d5faa096.html#a3945fecdbd157545838efa09d5faa096">translatePath</a>();</div>
+<div class="line"><span class="lineno">  213</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/ddf/a00224_a018294bf76b1dd5fed27fd02fbead4a2.html#a018294bf76b1dd5fed27fd02fbead4a2">pathNodes</a>;</div>
+<div class="line"><span class="lineno">  214</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  215</span>                <span class="keywordflow">return</span> <span class="keyword">null</span>;</div>
+<div class="line"><span class="lineno">  216</span>            }</div>
+<div class="line"><span class="lineno">  217</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  218</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/ddf/a00224_a018294bf76b1dd5fed27fd02fbead4a2.html#a018294bf76b1dd5fed27fd02fbead4a2">pathNodes</a>;</div>
+<div class="line"><span class="lineno">  219</span>        }</div>
+<div class="line"><span class="lineno">  220</span>    }</div>
+<div class="ttc" id="aa00224_a018294bf76b1dd5fed27fd02fbead4a2_html_a018294bf76b1dd5fed27fd02fbead4a2"><div class="ttname"><a href="../../d5/ddf/a00224_a018294bf76b1dd5fed27fd02fbead4a2.html#a018294bf76b1dd5fed27fd02fbead4a2">BlueRidingHood.Dijkstra.Node.pathNodes</a></div><div class="ttdeci">static LinkedList&lt; Integer &gt; pathNodes</div><div class="ttdef"><b>Definition:</b> Node.java:21</div></div>
+<div class="ttc" id="aa00224_a3945fecdbd157545838efa09d5faa096_html_a3945fecdbd157545838efa09d5faa096"><div class="ttname"><a href="../../d5/ddf/a00224_a3945fecdbd157545838efa09d5faa096.html#a3945fecdbd157545838efa09d5faa096">BlueRidingHood.Dijkstra.Node.translatePath</a></div><div class="ttdeci">static void translatePath()</div><div class="ttdoc">Traduce nodurile din pathNodes.</div><div class="ttdef"><b>Definition:</b> Node.java:175</div></div>
+<div class="ttc" id="aa00224_a6d12b972dd047eff8e6c2853e972c29b_html_a6d12b972dd047eff8e6c2853e972c29b"><div class="ttname"><a href="../../d5/ddf/a00224_a6d12b972dd047eff8e6c2853e972c29b.html#a6d12b972dd047eff8e6c2853e972c29b">BlueRidingHood.Dijkstra.Node.lastStart</a></div><div class="ttdeci">static int lastStart</div><div class="ttdef"><b>Definition:</b> Node.java:28</div></div>
+<div class="ttc" id="aa00224_aa242508833c73ea2300457d6ff7f2ff0_html_aa242508833c73ea2300457d6ff7f2ff0"><div class="ttname"><a href="../../d5/ddf/a00224_aa242508833c73ea2300457d6ff7f2ff0.html#aa242508833c73ea2300457d6ff7f2ff0">BlueRidingHood.Dijkstra.Node.mapIdForData</a></div><div class="ttdeci">static int mapIdForData</div><div class="ttdef"><b>Definition:</b> Node.java:26</div></div>
+<div class="ttc" id="aa00224_ab3511545bccdd382292d563f593f0c26_html_ab3511545bccdd382292d563f593f0c26"><div class="ttname"><a href="../../d5/ddf/a00224_ab3511545bccdd382292d563f593f0c26.html#ab3511545bccdd382292d563f593f0c26">BlueRidingHood.Dijkstra.Node.clean</a></div><div class="ttdeci">static void clean()</div><div class="ttdoc">Curăță datele specifice acumulate.</div><div class="ttdef"><b>Definition:</b> Node.java:137</div></div>
+<div class="ttc" id="aa00224_ab9719152d227a884bad58e73947fe705_html_ab9719152d227a884bad58e73947fe705"><div class="ttname"><a href="../../d5/ddf/a00224_ab9719152d227a884bad58e73947fe705.html#ab9719152d227a884bad58e73947fe705">BlueRidingHood.Dijkstra.Node.adiacenteMatrix</a></div><div class="ttdeci">static int[][] adiacenteMatrix</div><div class="ttdef"><b>Definition:</b> Node.java:25</div></div>
+<div class="ttc" id="aa00224_abc863d1f3e9234003a859e910ed95c3f_html_abc863d1f3e9234003a859e910ed95c3f"><div class="ttname"><a href="../../d5/ddf/a00224_abc863d1f3e9234003a859e910ed95c3f.html#abc863d1f3e9234003a859e910ed95c3f">BlueRidingHood.Dijkstra.Node.buildMapNodes</a></div><div class="ttdeci">static void buildMapNodes()</div><div class="ttdoc">Construiește nodurile hărții curente.</div><div class="ttdef"><b>Definition:</b> Node.java:57</div></div>
+<div class="ttc" id="aa00224_acfc19451aebbeb3bb2562d7c0e67ae86_html_acfc19451aebbeb3bb2562d7c0e67ae86"><div class="ttname"><a href="../../d5/ddf/a00224_acfc19451aebbeb3bb2562d7c0e67ae86.html#acfc19451aebbeb3bb2562d7c0e67ae86">BlueRidingHood.Dijkstra.Node.getNodeNumber</a></div><div class="ttdeci">static int getNodeNumber(int value)</div><div class="ttdoc">Returnează codul de ordine pentru nodul dat prin valoarea value.</div><div class="ttdef"><b>Definition:</b> Node.java:157</div></div>
+<div class="ttc" id="aa00224_ad3ae4db0e11f685b062a9d795ee08ac1_html_ad3ae4db0e11f685b062a9d795ee08ac1"><div class="ttname"><a href="../../d5/ddf/a00224_ad3ae4db0e11f685b062a9d795ee08ac1.html#ad3ae4db0e11f685b062a9d795ee08ac1">BlueRidingHood.Dijkstra.Node.lastStop</a></div><div class="ttdeci">static int lastStop</div><div class="ttdef"><b>Definition:</b> Node.java:28</div></div>
+<div class="ttc" id="aa00224_add49a7fb5bed45a7df22a776d4983fa6_html_add49a7fb5bed45a7df22a776d4983fa6"><div class="ttname"><a href="../../d5/ddf/a00224_add49a7fb5bed45a7df22a776d4983fa6.html#add49a7fb5bed45a7df22a776d4983fa6">BlueRidingHood.Dijkstra.Node.buildAdiMatrix</a></div><div class="ttdeci">static void buildAdiMatrix()</div><div class="ttdoc">Construiește matricea de adiacență pentru harta curentă.</div><div class="ttdef"><b>Definition:</b> Node.java:91</div></div>
+<div class="ttc" id="aa00224_ae809d54ceb427ac0b1335e47f45fa0ee_html_ae809d54ceb427ac0b1335e47f45fa0ee"><div class="ttname"><a href="../../d5/ddf/a00224_ae809d54ceb427ac0b1335e47f45fa0ee.html#ae809d54ceb427ac0b1335e47f45fa0ee">BlueRidingHood.Dijkstra.Node.build</a></div><div class="ttdeci">static void build()</div><div class="ttdoc">Preia referința către harta curentă.</div><div class="ttdef"><b>Definition:</b> Node.java:148</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../d5/ddf/a00224_ab9719152d227a884bad58e73947fe705.html#ab9719152d227a884bad58e73947fe705">Node.adiacenteMatrix</a>, <a class="el" href="../../d5/ddf/a00224_ae809d54ceb427ac0b1335e47f45fa0ee.html#ae809d54ceb427ac0b1335e47f45fa0ee">Node.build()</a>, <a class="el" href="../../d5/ddf/a00224_add49a7fb5bed45a7df22a776d4983fa6.html#add49a7fb5bed45a7df22a776d4983fa6">Node.buildAdiMatrix()</a>, <a class="el" href="../../d5/ddf/a00224_abc863d1f3e9234003a859e910ed95c3f.html#abc863d1f3e9234003a859e910ed95c3f">Node.buildMapNodes()</a>, <a class="el" href="../../d5/ddf/a00224_ab3511545bccdd382292d563f593f0c26.html#ab3511545bccdd382292d563f593f0c26">Node.clean()</a>, <a class="el" href="../../d5/d0b/a00220_a6c3cc458d7dcda6b35f7cb2c294e2885.html#a6c3cc458d7dcda6b35f7cb2c294e2885">DijkstrasAlgorithm.dijkstra()</a>, <a class="el" href="../../df/df1/a00340_a7d60c97ff1a31b3f5cd235a04e5bd6c9.html#a7d60c97ff1a31b3f5cd235a04e5bd6c9">Map.getCurrentMap()</a>, <a class="el" href="../../df/df1/a00340_a5f3f7ef7ea21e1a74991a1953e1105b2.html#a5f3f7ef7ea21e1a74991a1953e1105b2">Map.getMapNr()</a>, <a class="el" href="../../d5/ddf/a00224_acfc19451aebbeb3bb2562d7c0e67ae86.html#acfc19451aebbeb3bb2562d7c0e67ae86">Node.getNodeNumber()</a>, <a class="el" href="../../d5/ddf/a00224_a6d12b972dd047eff8e6c2853e972c29b.html#a6d12b972dd047eff8e6c2853e972c29b">Node.lastStart</a>, <a class="el" href="../../d5/ddf/a00224_ad3ae4db0e11f685b062a9d795ee08ac1.html#ad3ae4db0e11f685b062a9d795ee08ac1">Node.lastStop</a>, <a class="el" href="../../d5/ddf/a00224_aa242508833c73ea2300457d6ff7f2ff0.html#aa242508833c73ea2300457d6ff7f2ff0">Node.mapIdForData</a>, <a class="el" href="../../d5/ddf/a00224_a018294bf76b1dd5fed27fd02fbead4a2.html#a018294bf76b1dd5fed27fd02fbead4a2">Node.pathNodes</a> şi <a class="el" href="../../d5/ddf/a00224_a3945fecdbd157545838efa09d5faa096.html#a3945fecdbd157545838efa09d5faa096">Node.translatePath()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><a class="el" href="../../d8/df1/a00174.html">Dijkstra</a></li><li class="navelem"><a class="el" href="../../d5/ddf/a00224.html">Node</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

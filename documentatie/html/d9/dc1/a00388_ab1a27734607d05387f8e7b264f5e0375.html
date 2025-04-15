@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.State.Game.PlayState.PlayState</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d9/dc1/a00388_ab1a27734607d05387f8e7b264f5e0375.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="ab1a27734607d05387f8e7b264f5e0375" name="ab1a27734607d05387f8e7b264f5e0375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a27734607d05387f8e7b264f5e0375">&#9670;&nbsp;</a></span>PlayState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">protected <a class="el" href="../../d9/dc1/a00388.html">PlayState</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructorul clasei <a class="el" href="../../d9/dc1/a00388.html" title="Starea de joc.">PlayState</a>. </p>
+<p >Inițializează referințele și variabilele locale.<br  />
+Pornește inițializarea aseturilor principale. </p>
+<div class="fragment"><div class="line"><span class="lineno">   47</span>                          {</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>        Game game = Game.provideGame();</div>
+<div class="line"><span class="lineno">   50</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_ab15a47b1fe24d7cdab4c721dc140c2a0.html#ab15a47b1fe24d7cdab4c721dc140c2a0">displayRect</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a22347dff54c01bebccc78b21b84d1f70.html#a22347dff54c01bebccc78b21b84d1f70">grid</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   52</span>        Assets.InitFirst();</div>
+<div class="line"><span class="lineno">   53</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a03b7243ca79e4ed8979bfc8091407564.html#a03b7243ca79e4ed8979bfc8091407564">gameui</a> = UI.<a class="code hl_function" href="../../df/d15/a00416_ae4d1f5e03790fc5fd32a5799d25c167e.html#ae4d1f5e03790fc5fd32a5799d25c167e">getUI</a>();</div>
+<div class="line"><span class="lineno">   54</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_ad41f000e5b5a71bdde0c35df484fa71c.html#ad41f000e5b5a71bdde0c35df484fa71c">player</a> = Player.<a class="code hl_function" href="../../dd/dd7/a00260_a3612ee6d2103dfc197917b5b8bad59ce.html#a3612ee6d2103dfc197917b5b8bad59ce">getPlayer</a>();</div>
+<div class="line"><span class="lineno">   55</span>        EntitiesFactory entitiesFactory = EntitiesFactory.getEntitiesFactory();</div>
+<div class="line"><span class="lineno">   56</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">currentMap</a> = Map.<a class="code hl_function" href="../../df/df1/a00340_a7d60c97ff1a31b3f5cd235a04e5bd6c9.html#a7d60c97ff1a31b3f5cd235a04e5bd6c9">getCurrentMap</a>();</div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a94757ea0c02a1c2e91721a080841a3c4.html#a94757ea0c02a1c2e91721a080841a3c4">currentMapImage</a> = Assets.maps[<a class="code hl_variable" href="../../d9/dc1/a00388_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">currentMap</a>.<a class="code hl_function" href="../../df/df1/a00340_a5f3f7ef7ea21e1a74991a1953e1105b2.html#a5f3f7ef7ea21e1a74991a1953e1105b2">getMapNr</a>() - 1];</div>
+<div class="line"><span class="lineno">   58</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">currentMap</a>.<a class="code hl_function" href="../../df/df1/a00340_af14a0aec668f76562146cd4c295747b8.html#af14a0aec668f76562146cd4c295747b8">attach</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a50652d42e9ce3826eb6c1cba4d1b1f4c.html#a50652d42e9ce3826eb6c1cba4d1b1f4c">animationHandler</a> = AnimationHandler.<a class="code hl_function" href="../../d3/db1/a00200_aacdb3bb47822a933078a7c140b9f42ee.html#aacdb3bb47822a933078a7c140b9f42ee">getAnimationHandler</a>();</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_af0e34e0057415683d8b5dcaa31f2a74b.html#af0e34e0057415683d8b5dcaa31f2a74b">inputHandler</a> = PlayerInputHandler.<a class="code hl_function" href="../../dc/d50/a00332_a023a7837bca3c8a88980fb815c5fa91c.html#a023a7837bca3c8a88980fb815c5fa91c">getPlayerInputHandler</a>();</div>
+<div class="line"><span class="lineno">   62</span>        entitiesFactory.produceMapEntities();</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_variable" href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">gameWindow</a> = game.getGameWindow();</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_variable" href="../../dc/d59/a00364_ab4f530c4895481122a4dc6267f7a4011.html#ab4f530c4895481122a4dc6267f7a4011">keyboardInputManager</a> = KeyboardInputManager.<a class="code hl_function" href="../../d4/d8f/a00324_a2bbe3d4f0760f8718abd1d68beb0ab27.html#a2bbe3d4f0760f8718abd1d68beb0ab27">provideKeyboardInputManager</a>();</div>
+<div class="line"><span class="lineno">   66</span>        <a class="code hl_variable" href="../../d9/dc1/a00388_a50652d42e9ce3826eb6c1cba4d1b1f4c.html#a50652d42e9ce3826eb6c1cba4d1b1f4c">animationHandler</a> = AnimationHandler.<a class="code hl_function" href="../../d3/db1/a00200_aacdb3bb47822a933078a7c140b9f42ee.html#aacdb3bb47822a933078a7c140b9f42ee">getAnimationHandler</a>();</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="ttc" id="aa00200_aacdb3bb47822a933078a7c140b9f42ee_html_aacdb3bb47822a933078a7c140b9f42ee"><div class="ttname"><a href="../../d3/db1/a00200_aacdb3bb47822a933078a7c140b9f42ee.html#aacdb3bb47822a933078a7c140b9f42ee">BlueRidingHood.Animation.AnimationHandler.getAnimationHandler</a></div><div class="ttdeci">static AnimationHandler getAnimationHandler()</div><div class="ttdoc">Returnează referința unică a handlerului de animație.</div><div class="ttdef"><b>Definition:</b> AnimationHandler.java:71</div></div>
+<div class="ttc" id="aa00260_a3612ee6d2103dfc197917b5b8bad59ce_html_a3612ee6d2103dfc197917b5b8bad59ce"><div class="ttname"><a href="../../dd/dd7/a00260_a3612ee6d2103dfc197917b5b8bad59ce.html#a3612ee6d2103dfc197917b5b8bad59ce">BlueRidingHood.Entities.Player.getPlayer</a></div><div class="ttdeci">static Player getPlayer()</div><div class="ttdoc">Returnează referința unică a jucătorului.</div><div class="ttdef"><b>Definition:</b> Player.java:89</div></div>
+<div class="ttc" id="aa00324_a2bbe3d4f0760f8718abd1d68beb0ab27_html_a2bbe3d4f0760f8718abd1d68beb0ab27"><div class="ttname"><a href="../../d4/d8f/a00324_a2bbe3d4f0760f8718abd1d68beb0ab27.html#a2bbe3d4f0760f8718abd1d68beb0ab27">BlueRidingHood.InputManager.KeyboardInputManager.provideKeyboardInputManager</a></div><div class="ttdeci">static KeyboardInputManager provideKeyboardInputManager()</div><div class="ttdoc">Returnează referința unică a managerului de input.</div><div class="ttdef"><b>Definition:</b> KeyboardInputManager.java:53</div></div>
+<div class="ttc" id="aa00332_a023a7837bca3c8a88980fb815c5fa91c_html_a023a7837bca3c8a88980fb815c5fa91c"><div class="ttname"><a href="../../dc/d50/a00332_a023a7837bca3c8a88980fb815c5fa91c.html#a023a7837bca3c8a88980fb815c5fa91c">BlueRidingHood.InputManager.PlayerInputHandler.getPlayerInputHandler</a></div><div class="ttdeci">static PlayerInputHandler getPlayerInputHandler()</div><div class="ttdoc">Returnează referința unică a handlerului de input.</div><div class="ttdef"><b>Definition:</b> PlayerInputHandler.java:56</div></div>
+<div class="ttc" id="aa00340_a5f3f7ef7ea21e1a74991a1953e1105b2_html_a5f3f7ef7ea21e1a74991a1953e1105b2"><div class="ttname"><a href="../../df/df1/a00340_a5f3f7ef7ea21e1a74991a1953e1105b2.html#a5f3f7ef7ea21e1a74991a1953e1105b2">BlueRidingHood.Map.Map.getMapNr</a></div><div class="ttdeci">int getMapNr()</div><div class="ttdoc">Returnează identificatorul hărții.</div><div class="ttdef"><b>Definition:</b> Map.java:90</div></div>
+<div class="ttc" id="aa00340_a7d60c97ff1a31b3f5cd235a04e5bd6c9_html_a7d60c97ff1a31b3f5cd235a04e5bd6c9"><div class="ttname"><a href="../../df/df1/a00340_a7d60c97ff1a31b3f5cd235a04e5bd6c9.html#a7d60c97ff1a31b3f5cd235a04e5bd6c9">BlueRidingHood.Map.Map.getCurrentMap</a></div><div class="ttdeci">static Map getCurrentMap()</div><div class="ttdoc">Returnează referința la harta curentă.</div><div class="ttdef"><b>Definition:</b> Map.java:81</div></div>
+<div class="ttc" id="aa00340_af14a0aec668f76562146cd4c295747b8_html_af14a0aec668f76562146cd4c295747b8"><div class="ttname"><a href="../../df/df1/a00340_af14a0aec668f76562146cd4c295747b8.html#af14a0aec668f76562146cd4c295747b8">BlueRidingHood.Map.Map.attach</a></div><div class="ttdeci">void attach(Observer observer)</div><div class="ttdoc">Atașează observatorul dat.</div><div class="ttdef"><b>Definition:</b> Map.java:205</div></div>
+<div class="ttc" id="aa00364_ab4f530c4895481122a4dc6267f7a4011_html_ab4f530c4895481122a4dc6267f7a4011"><div class="ttname"><a href="../../dc/d59/a00364_ab4f530c4895481122a4dc6267f7a4011.html#ab4f530c4895481122a4dc6267f7a4011">BlueRidingHood.State.Game.GameState.keyboardInputManager</a></div><div class="ttdeci">KeyboardInputManager keyboardInputManager</div><div class="ttdef"><b>Definition:</b> GameState.java:44</div></div>
+<div class="ttc" id="aa00364_ad4320ae13d35e2be0c2684d70c709d25_html_ad4320ae13d35e2be0c2684d70c709d25"><div class="ttname"><a href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">BlueRidingHood.State.Game.GameState.gameWindow</a></div><div class="ttdeci">static GameWindow gameWindow</div><div class="ttdef"><b>Definition:</b> GameState.java:37</div></div>
+<div class="ttc" id="aa00388_a03b7243ca79e4ed8979bfc8091407564_html_a03b7243ca79e4ed8979bfc8091407564"><div class="ttname"><a href="../../d9/dc1/a00388_a03b7243ca79e4ed8979bfc8091407564.html#a03b7243ca79e4ed8979bfc8091407564">BlueRidingHood.State.Game.PlayState.gameui</a></div><div class="ttdeci">final UI gameui</div><div class="ttdef"><b>Definition:</b> PlayState.java:33</div></div>
+<div class="ttc" id="aa00388_a22347dff54c01bebccc78b21b84d1f70_html_a22347dff54c01bebccc78b21b84d1f70"><div class="ttname"><a href="../../d9/dc1/a00388_a22347dff54c01bebccc78b21b84d1f70.html#a22347dff54c01bebccc78b21b84d1f70">BlueRidingHood.State.Game.PlayState.grid</a></div><div class="ttdeci">boolean grid</div><div class="ttdef"><b>Definition:</b> PlayState.java:39</div></div>
+<div class="ttc" id="aa00388_a4a2d0a81d6facd2868292835662c94cb_html_a4a2d0a81d6facd2868292835662c94cb"><div class="ttname"><a href="../../d9/dc1/a00388_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">BlueRidingHood.State.Game.PlayState.currentMap</a></div><div class="ttdeci">Map currentMap</div><div class="ttdef"><b>Definition:</b> PlayState.java:37</div></div>
+<div class="ttc" id="aa00388_a50652d42e9ce3826eb6c1cba4d1b1f4c_html_a50652d42e9ce3826eb6c1cba4d1b1f4c"><div class="ttname"><a href="../../d9/dc1/a00388_a50652d42e9ce3826eb6c1cba4d1b1f4c.html#a50652d42e9ce3826eb6c1cba4d1b1f4c">BlueRidingHood.State.Game.PlayState.animationHandler</a></div><div class="ttdeci">AnimationHandler animationHandler</div><div class="ttdef"><b>Definition:</b> PlayState.java:35</div></div>
+<div class="ttc" id="aa00388_a94757ea0c02a1c2e91721a080841a3c4_html_a94757ea0c02a1c2e91721a080841a3c4"><div class="ttname"><a href="../../d9/dc1/a00388_a94757ea0c02a1c2e91721a080841a3c4.html#a94757ea0c02a1c2e91721a080841a3c4">BlueRidingHood.State.Game.PlayState.currentMapImage</a></div><div class="ttdeci">Image currentMapImage</div><div class="ttdef"><b>Definition:</b> PlayState.java:36</div></div>
+<div class="ttc" id="aa00388_ab15a47b1fe24d7cdab4c721dc140c2a0_html_ab15a47b1fe24d7cdab4c721dc140c2a0"><div class="ttname"><a href="../../d9/dc1/a00388_ab15a47b1fe24d7cdab4c721dc140c2a0.html#ab15a47b1fe24d7cdab4c721dc140c2a0">BlueRidingHood.State.Game.PlayState.displayRect</a></div><div class="ttdeci">boolean displayRect</div><div class="ttdef"><b>Definition:</b> PlayState.java:38</div></div>
+<div class="ttc" id="aa00388_ad41f000e5b5a71bdde0c35df484fa71c_html_ad41f000e5b5a71bdde0c35df484fa71c"><div class="ttname"><a href="../../d9/dc1/a00388_ad41f000e5b5a71bdde0c35df484fa71c.html#ad41f000e5b5a71bdde0c35df484fa71c">BlueRidingHood.State.Game.PlayState.player</a></div><div class="ttdeci">final Player player</div><div class="ttdef"><b>Definition:</b> PlayState.java:34</div></div>
+<div class="ttc" id="aa00388_af0e34e0057415683d8b5dcaa31f2a74b_html_af0e34e0057415683d8b5dcaa31f2a74b"><div class="ttname"><a href="../../d9/dc1/a00388_af0e34e0057415683d8b5dcaa31f2a74b.html#af0e34e0057415683d8b5dcaa31f2a74b">BlueRidingHood.State.Game.PlayState.inputHandler</a></div><div class="ttdeci">final PlayerInputHandler inputHandler</div><div class="ttdef"><b>Definition:</b> PlayState.java:32</div></div>
+<div class="ttc" id="aa00416_ae4d1f5e03790fc5fd32a5799d25c167e_html_ae4d1f5e03790fc5fd32a5799d25c167e"><div class="ttname"><a href="../../df/d15/a00416_ae4d1f5e03790fc5fd32a5799d25c167e.html#ae4d1f5e03790fc5fd32a5799d25c167e">BlueRidingHood.UI.UI.getUI</a></div><div class="ttdeci">static UI getUI()</div><div class="ttdoc">Returnează referința unică la interfața utilizator.</div><div class="ttdef"><b>Definition:</b> UI.java:43</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../d9/dc1/a00388_a50652d42e9ce3826eb6c1cba4d1b1f4c.html#a50652d42e9ce3826eb6c1cba4d1b1f4c">PlayState.animationHandler</a>, <a class="el" href="../../df/df1/a00340_af14a0aec668f76562146cd4c295747b8.html#af14a0aec668f76562146cd4c295747b8">Map.attach()</a>, <a class="el" href="../../d9/dc1/a00388_a4a2d0a81d6facd2868292835662c94cb.html#a4a2d0a81d6facd2868292835662c94cb">PlayState.currentMap</a>, <a class="el" href="../../d9/dc1/a00388_a94757ea0c02a1c2e91721a080841a3c4.html#a94757ea0c02a1c2e91721a080841a3c4">PlayState.currentMapImage</a>, <a class="el" href="../../d9/dc1/a00388_ab15a47b1fe24d7cdab4c721dc140c2a0.html#ab15a47b1fe24d7cdab4c721dc140c2a0">PlayState.displayRect</a>, <a class="el" href="../../d9/dc1/a00388_a03b7243ca79e4ed8979bfc8091407564.html#a03b7243ca79e4ed8979bfc8091407564">PlayState.gameui</a>, <a class="el" href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">GameState.gameWindow</a>, <a class="el" href="../../d3/db1/a00200_aacdb3bb47822a933078a7c140b9f42ee.html#aacdb3bb47822a933078a7c140b9f42ee">AnimationHandler.getAnimationHandler()</a>, <a class="el" href="../../df/df1/a00340_a7d60c97ff1a31b3f5cd235a04e5bd6c9.html#a7d60c97ff1a31b3f5cd235a04e5bd6c9">Map.getCurrentMap()</a>, <a class="el" href="../../d9/dd6/a00272_a958dca9118fbf72e9518a3a908b482cc.html#a958dca9118fbf72e9518a3a908b482cc">EntitiesFactory.getEntitiesFactory()</a>, <a class="el" href="../../db/da2/a00300_ac808d13506194f773fe66e12188fdd7c.html#ac808d13506194f773fe66e12188fdd7c">Game.getGameWindow()</a>, <a class="el" href="../../df/df1/a00340_a5f3f7ef7ea21e1a74991a1953e1105b2.html#a5f3f7ef7ea21e1a74991a1953e1105b2">Map.getMapNr()</a>, <a class="el" href="../../dd/dd7/a00260_a3612ee6d2103dfc197917b5b8bad59ce.html#a3612ee6d2103dfc197917b5b8bad59ce">Player.getPlayer()</a>, <a class="el" href="../../dc/d50/a00332_a023a7837bca3c8a88980fb815c5fa91c.html#a023a7837bca3c8a88980fb815c5fa91c">PlayerInputHandler.getPlayerInputHandler()</a>, <a class="el" href="../../df/d15/a00416_ae4d1f5e03790fc5fd32a5799d25c167e.html#ae4d1f5e03790fc5fd32a5799d25c167e">UI.getUI()</a>, <a class="el" href="../../d9/dc1/a00388_a22347dff54c01bebccc78b21b84d1f70.html#a22347dff54c01bebccc78b21b84d1f70">PlayState.grid</a>, <a class="el" href="../../d5/d0f/a00308_ab2d0290107eef814860d6f85b4974177.html#ab2d0290107eef814860d6f85b4974177">Assets.InitFirst()</a>, <a class="el" href="../../d9/dc1/a00388_af0e34e0057415683d8b5dcaa31f2a74b.html#af0e34e0057415683d8b5dcaa31f2a74b">PlayState.inputHandler</a>, <a class="el" href="../../dc/d59/a00364_ab4f530c4895481122a4dc6267f7a4011.html#ab4f530c4895481122a4dc6267f7a4011">GameState.keyboardInputManager</a>, <a class="el" href="../../d5/d0f/a00308_a2948f3b5c8ebebdca68aebf7d1397ace.html#a2948f3b5c8ebebdca68aebf7d1397ace">Assets.maps</a>, <a class="el" href="../../d9/dc1/a00388_ad41f000e5b5a71bdde0c35df484fa71c.html#ad41f000e5b5a71bdde0c35df484fa71c">PlayState.player</a>, <a class="el" href="../../d9/dd6/a00272_adec9c869250d1faa40af669437af6fd9.html#adec9c869250d1faa40af669437af6fd9">EntitiesFactory.produceMapEntities()</a>, <a class="el" href="../../db/da2/a00300_a367bf92fe8f3bc9af0a8a500992fe1a2.html#a367bf92fe8f3bc9af0a8a500992fe1a2">Game.provideGame()</a> şi <a class="el" href="../../d4/d8f/a00324_a2bbe3d4f0760f8718abd1d68beb0ab27.html#a2bbe3d4f0760f8718abd1d68beb0ab27">KeyboardInputManager.provideKeyboardInputManager()</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d9/dc1/a00388_a63b8eada6c34813fa4558656f6ec1952.html#a63b8eada6c34813fa4558656f6ec1952">PlayState.getPlayState()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><b>State</b></li><li class="navelem"><a class="el" href="../../d8/d00/a00186.html">Game</a></li><li class="navelem"><a class="el" href="../../d9/dc1/a00388.html">PlayState</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

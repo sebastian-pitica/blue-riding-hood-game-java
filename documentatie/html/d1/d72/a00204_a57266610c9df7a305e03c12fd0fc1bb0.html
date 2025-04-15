@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.Audio.AudioHandler.playSoundEffect</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="a57266610c9df7a305e03c12fd0fc1bb0" name="a57266610c9df7a305e03c12fd0fc1bb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57266610c9df7a305e03c12fd0fc1bb0">&#9670;&nbsp;</a></span>playSoundEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">public void playSoundEffect </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pornește redarea unică a unui efect audio. </p>
+<p >Dacă opțiunea de sunet a fost activată. </p><dl class="section note"><dt>Notă</dt><dd>Efectele sonore de pornit/oprit nu sunt limitate de valoarea opțiunii de sunet.<br  />
+ Rolul lor fiind tocmai de a face evidentă activarea/dezactivarea unor opțiuni. </dd></dl>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indexSoundToPlay</td><td>indexul efectului de redat. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  111</span>                                           {</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>        <span class="keywordflow">if</span> (GameState.getPlaySound() || index == Sounds.ON.ordinal() || index == Sounds.OFF.ordinal()) {</div>
+<div class="line"><span class="lineno">  114</span>            <span class="keywordflow">if</span> (index != Sounds.PRUN.ordinal() &amp;&amp; index != Sounds.ERUN.ordinal() &amp;&amp; index != Sounds.SWORDNOHIT.ordinal() &amp;&amp; index != Sounds.SHIELD.ordinal()) {</div>
+<div class="line"><span class="lineno">  115</span>                <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">play</a>();</div>
+<div class="line"><span class="lineno">  116</span>                <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">setLastTimePlayed</a>(System.nanoTime());</div>
+<div class="line"><span class="lineno">  117</span>            }</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>            <span class="keywordflow">if</span> (index == Sounds.PRUN.ordinal())</div>
+<div class="line"><span class="lineno">  120</span>                <span class="keywordflow">if</span> ((System.nanoTime() - <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_acfdba9b503bc0018cf5ea23785e8801c.html#acfdba9b503bc0018cf5ea23785e8801c">getLastTimePlayed</a>()) / <a class="code hl_variable" href="../../d1/d72/a00204_ad70d57224cf30e6f866c176b1f7822c2.html#ad70d57224cf30e6f866c176b1f7822c2">playPRUNSecondsLimit</a> &gt;= 1000000000) {</div>
+<div class="line"><span class="lineno">  121</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">play</a>();</div>
+<div class="line"><span class="lineno">  122</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">setLastTimePlayed</a>(System.nanoTime());</div>
+<div class="line"><span class="lineno">  123</span>                }</div>
+<div class="line"><span class="lineno">  124</span> </div>
+<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">if</span> (index == Sounds.ERUN.ordinal()) {</div>
+<div class="line"><span class="lineno">  126</span>                <span class="keywordflow">if</span> ((System.nanoTime() - <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_acfdba9b503bc0018cf5ea23785e8801c.html#acfdba9b503bc0018cf5ea23785e8801c">getLastTimePlayed</a>()) &gt;= 1000000000) {</div>
+<div class="line"><span class="lineno">  127</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">play</a>();</div>
+<div class="line"><span class="lineno">  128</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">setLastTimePlayed</a>(System.nanoTime());</div>
+<div class="line"><span class="lineno">  129</span>                }</div>
+<div class="line"><span class="lineno">  130</span>            }</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">if</span> (index == Sounds.SWORDNOHIT.ordinal() &amp;&amp; <a class="code hl_variable" href="../../d1/d72/a00204_af849390afebbe0236309d1de61bed601.html#af849390afebbe0236309d1de61bed601">swordNoHit</a>) {</div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">if</span> ((System.nanoTime() - <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_acfdba9b503bc0018cf5ea23785e8801c.html#acfdba9b503bc0018cf5ea23785e8801c">getLastTimePlayed</a>()) &gt;= 500000000) {</div>
+<div class="line"><span class="lineno">  134</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">play</a>();</div>
+<div class="line"><span class="lineno">  135</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">setLastTimePlayed</a>(System.nanoTime());</div>
+<div class="line"><span class="lineno">  136</span>                }</div>
+<div class="line"><span class="lineno">  137</span>            }</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">if</span> (index == Sounds.SHIELD.ordinal()) {</div>
+<div class="line"><span class="lineno">  140</span>                <span class="keywordflow">if</span> ((System.nanoTime() - <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_acfdba9b503bc0018cf5ea23785e8801c.html#acfdba9b503bc0018cf5ea23785e8801c">getLastTimePlayed</a>()) &gt;= 900000000) {</div>
+<div class="line"><span class="lineno">  141</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">play</a>();</div>
+<div class="line"><span class="lineno">  142</span>                    <a class="code hl_variable" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">sounds</a>[index].<a class="code hl_function" href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">setLastTimePlayed</a>(System.nanoTime());</div>
+<div class="line"><span class="lineno">  143</span>                }</div>
+<div class="line"><span class="lineno">  144</span>            }</div>
+<div class="line"><span class="lineno">  145</span>        }</div>
+<div class="line"><span class="lineno">  146</span>    }</div>
+<div class="ttc" id="aa00204_a702bbe31fc428c71641a0aa6ee932bb8_html_a702bbe31fc428c71641a0aa6ee932bb8"><div class="ttname"><a href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">BlueRidingHood.Audio.AudioHandler.sounds</a></div><div class="ttdeci">static Sound[] sounds</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:27</div></div>
+<div class="ttc" id="aa00204_ad70d57224cf30e6f866c176b1f7822c2_html_ad70d57224cf30e6f866c176b1f7822c2"><div class="ttname"><a href="../../d1/d72/a00204_ad70d57224cf30e6f866c176b1f7822c2.html#ad70d57224cf30e6f866c176b1f7822c2">BlueRidingHood.Audio.AudioHandler.playPRUNSecondsLimit</a></div><div class="ttdeci">static final long playPRUNSecondsLimit</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:25</div></div>
+<div class="ttc" id="aa00204_af849390afebbe0236309d1de61bed601_html_af849390afebbe0236309d1de61bed601"><div class="ttname"><a href="../../d1/d72/a00204_af849390afebbe0236309d1de61bed601.html#af849390afebbe0236309d1de61bed601">BlueRidingHood.Audio.AudioHandler.swordNoHit</a></div><div class="ttdeci">static boolean swordNoHit</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:28</div></div>
+<div class="ttc" id="aa00212_a4aa1276f0ada48e1fb4817843e80a71d_html_a4aa1276f0ada48e1fb4817843e80a71d"><div class="ttname"><a href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">BlueRidingHood.Audio.Sound.play</a></div><div class="ttdeci">void play()</div><div class="ttdoc">Redă sunetul.</div><div class="ttdef"><b>Definition:</b> Sound.java:38</div></div>
+<div class="ttc" id="aa00212_a6002ed82bb5ac3601425bf83f5c5073a_html_a6002ed82bb5ac3601425bf83f5c5073a"><div class="ttname"><a href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">BlueRidingHood.Audio.Sound.setLastTimePlayed</a></div><div class="ttdeci">void setLastTimePlayed(long lastTimePlayed)</div><div class="ttdoc">Setează ultima dată când a fost redat sunetul.</div><div class="ttdef"><b>Definition:</b> Sound.java:83</div></div>
+<div class="ttc" id="aa00212_acfdba9b503bc0018cf5ea23785e8801c_html_acfdba9b503bc0018cf5ea23785e8801c"><div class="ttname"><a href="../../dd/dc1/a00212_acfdba9b503bc0018cf5ea23785e8801c.html#acfdba9b503bc0018cf5ea23785e8801c">BlueRidingHood.Audio.Sound.getLastTimePlayed</a></div><div class="ttdeci">long getLastTimePlayed()</div><div class="ttdoc">Returnează ultima dată când a fost redat sunetul.</div><div class="ttdef"><b>Definition:</b> Sound.java:75</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../db/d7b/a00296_aec6d3c5b8a06ae4837caca94a6ed9eaa.html#aec6d3c5b8a06ae4837caca94a6ed9eaa">Sounds.ERUN</a>, <a class="el" href="../../dd/dc1/a00212_acfdba9b503bc0018cf5ea23785e8801c.html#acfdba9b503bc0018cf5ea23785e8801c">Sound.getLastTimePlayed()</a>, <a class="el" href="../../dc/d59/a00364_a933003a9f431a29e35b99c5d9c5eabb8.html#a933003a9f431a29e35b99c5d9c5eabb8">GameState.getPlaySound()</a>, <a class="el" href="../../db/d7b/a00296_aba437f58ad654d395b18d209a1a8c21c.html#aba437f58ad654d395b18d209a1a8c21c">Sounds.OFF</a>, <a class="el" href="../../db/d7b/a00296_a29bb63ba715ee27a89725069074d5665.html#a29bb63ba715ee27a89725069074d5665">Sounds.ON</a>, <a class="el" href="../../dd/dc1/a00212_a4aa1276f0ada48e1fb4817843e80a71d.html#a4aa1276f0ada48e1fb4817843e80a71d">Sound.play()</a>, <a class="el" href="../../d1/d72/a00204_ad70d57224cf30e6f866c176b1f7822c2.html#ad70d57224cf30e6f866c176b1f7822c2">AudioHandler.playPRUNSecondsLimit</a>, <a class="el" href="../../db/d7b/a00296_a5788e00e28f589601e96f2d95c55c9a8.html#a5788e00e28f589601e96f2d95c55c9a8">Sounds.PRUN</a>, <a class="el" href="../../dd/dc1/a00212_a6002ed82bb5ac3601425bf83f5c5073a.html#a6002ed82bb5ac3601425bf83f5c5073a">Sound.setLastTimePlayed()</a>, <a class="el" href="../../db/d7b/a00296_a7d19dd4530a4acb0f38ff0a40f839fe1.html#a7d19dd4530a4acb0f38ff0a40f839fe1">Sounds.SHIELD</a>, <a class="el" href="../../d1/d72/a00204_a702bbe31fc428c71641a0aa6ee932bb8.html#a702bbe31fc428c71641a0aa6ee932bb8">AudioHandler.sounds</a>, <a class="el" href="../../d1/d72/a00204_af849390afebbe0236309d1de61bed601.html#af849390afebbe0236309d1de61bed601">AudioHandler.swordNoHit</a> şi <a class="el" href="../../db/d7b/a00296_ab38849f309a78905c463185ddb990e8e.html#ab38849f309a78905c463185ddb990e8e">Sounds.SWORDNOHIT</a>.</p>
+
+<p class="reference">Semnalat de <a class="el" href="../../d3/db1/a00200_aec30bb749db998c6fb209783f99f5bcf.html#aec30bb749db998c6fb209783f99f5bcf">AnimationHandler.checkCoinVector()</a>, <a class="el" href="../../dc/d59/a00364_ad1cf758392573ca4f6af1e0e339f350d.html#ad1cf758392573ca4f6af1e0e339f350d">GameState.clicked()</a>, <a class="el" href="../../d3/db1/a00200_afa77b5bd8a1a78a62bf6f5173e93c15c.html#afa77b5bd8a1a78a62bf6f5173e93c15c">AnimationHandler.currentPlayerAnimation()</a>, <a class="el" href="../../dc/ded/a00252_a96a248ba0e1dc4784732dc5df1a973eb.html#a96a248ba0e1dc4784732dc5df1a973eb">EnemieEntity.followPlayer()</a>, <a class="el" href="../../dc/ded/a00252_a8c2ded9990362b953669fe02259813e4.html#a8c2ded9990362b953669fe02259813e4">EnemieEntity.hitEntityAtCoords()</a>, <a class="el" href="../../d8/d21/a00368_ab0655f5472046374ed395abaaf0e917e.html#ab0655f5472046374ed395abaaf0e917e">HomeState.mouseHandler()</a>, <a class="el" href="../../d1/d72/a00204_aa5508f529cf9e046a4e8bfaa893676b8.html#aa5508f529cf9e046a4e8bfaa893676b8">AudioHandler.playLastLevelAudio()</a>, <a class="el" href="../../d1/d72/a00204_ae7def020c74baf541537f159d28c02f0.html#ae7def020c74baf541537f159d28c02f0">AudioHandler.playLostSounds()</a>, <a class="el" href="../../d1/d72/a00204_aff4017a57444b4a7f6276ec8e03b92d1.html#aff4017a57444b4a7f6276ec8e03b92d1">AudioHandler.playRandomBite()</a>, <a class="el" href="../../d1/d72/a00204_ac41912e7cd963538e23e4f7e2c77b866.html#ac41912e7cd963538e23e4f7e2c77b866">AudioHandler.playSwordKill()</a>, <a class="el" href="../../d1/d72/a00204_af1bdc14e758b86ef3f213128d629b26c.html#af1bdc14e758b86ef3f213128d629b26c">AudioHandler.playWinSounds()</a>, <a class="el" href="../../d9/dd6/a00272_a924478c08f5ca8933b67ec40a6b33805.html#a924478c08f5ca8933b67ec40a6b33805">EntitiesFactory.produceWolfs()</a> şi <a class="el" href="../../dd/dd7/a00260_a149dce195404972adb53ce6c92573806.html#a149dce195404972adb53ce6c92573806">Player.setCurrentState()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><a class="el" href="../../d6/dfb/a00172.html">Audio</a></li><li class="navelem"><a class="el" href="../../d1/d72/a00204.html">AudioHandler</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>

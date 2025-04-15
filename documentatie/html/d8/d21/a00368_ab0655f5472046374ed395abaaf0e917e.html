@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Blue Riding Hood: BlueRidingHood.State.Game.HomeState.mouseHandler</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="../../logo.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Blue Riding Hood<span id="projectnumber">&#160;alfa 1.0 (v4)</span>
+   </div>
+   <div id="projectbrief">Fully functional 4th version.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat de Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search",'Caută','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','Caută');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d8/d21/a00368_ab0655f5472046374ed395abaaf0e917e.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<a id="ab0655f5472046374ed395abaaf0e917e" name="ab0655f5472046374ed395abaaf0e917e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0655f5472046374ed395abaaf0e917e">&#9670;&nbsp;</a></span>mouseHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">public abstract void mouseHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Decide acțiunea ce trebuie efectuată în funcție de coordonatele la care s-a făcut click. </p>
+<p >Poate actualiza starea jocului la starea de joc, încărcare fără/cu conținut, controale și starea de ieșire. Poate porni/opri opțiunile de redare a sunetului și salvarea progresului. </p>
+
+<p>Reimplementat din <a class="el" href="../../dc/d59/a00364_ab0655f5472046374ed395abaaf0e917e.html#ab0655f5472046374ed395abaaf0e917e">GameState</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   77</span>                               {</div>
+<div class="line"><span class="lineno">   78</span>        <span class="comment">//7,5-8,5 (x)</span></div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a85ea1b63086b31a15d3ed2579c5715a6.html#a85ea1b63086b31a15d3ed2579c5715a6">mouseX</a> &gt;= 7.5 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a85ea1b63086b31a15d3ed2579c5715a6.html#a85ea1b63086b31a15d3ed2579c5715a6">mouseX</a> &lt;= 8.5 * 64) {</div>
+<div class="line"><span class="lineno">   80</span>            <span class="comment">//7-8 (y)</span></div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &gt;= 7 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &lt;= 8 * 64) {</div>
+<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/a00364_a1b69671eee07fc8c47301c0042d23c77.html#a1b69671eee07fc8c47301c0042d23c77">playerWantsSaves</a>) {</div>
+<div class="line"><span class="lineno">   83</span>                    <a class="code hl_variable" href="../../d8/d21/a00368_a9a2326f35466e54c36c070829245c557.html#a9a2326f35466e54c36c070829245c557">name</a> = JOptionPane.showInputDialog(<a class="code hl_variable" href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">gameWindow</a>.<a class="code hl_function" href="../../d8/d17/a00304_a6f7e684cb916a21dd266614760b274dd.html#a6f7e684cb916a21dd266614760b274dd">getWindowFrame</a>(), <span class="stringliteral">&quot;Username: &quot;</span>, <span class="keyword">null</span>);</div>
+<div class="line"><span class="lineno">   84</span>                }</div>
+<div class="line"><span class="lineno">   85</span>                GameState.setCurrentState(PlayState.getPlayState());</div>
+<div class="line"><span class="lineno">   86</span>                Player.getPlayer().setUsername(<a class="code hl_variable" href="../../d8/d21/a00368_a9a2326f35466e54c36c070829245c557.html#a9a2326f35466e54c36c070829245c557">name</a>);</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">if</span>(!<a class="code hl_variable" href="../../dc/d59/a00364_a57c365550702d95472ca0e48fe8c64cc.html#a57c365550702d95472ca0e48fe8c64cc">error</a>)</div>
+<div class="line"><span class="lineno">   88</span>                    <a class="code hl_function" href="../../dc/d59/a00364_a5ea0fc410da1a89eead77a9e4f969a15.html#a5ea0fc410da1a89eead77a9e4f969a15">notifyObservers</a>();</div>
+<div class="line"><span class="lineno">   89</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   90</span>                <span class="comment">//8,5 - 9,5 (y)</span></div>
+<div class="line"><span class="lineno">   91</span>                <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &gt;= 8.5 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &lt;= 9.5 * 64) {</div>
+<div class="line"><span class="lineno">   92</span>                    <span class="keywordflow">if</span> (DataBaseHandler.isSaved()) {</div>
+<div class="line"><span class="lineno">   93</span>                        GameState.setCurrentState(LoadGameState.getLoadGameSubState());</div>
+<div class="line"><span class="lineno">   94</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   95</span>                        GameState.setCurrentState(LoadNoGameState.getLoadNoGameSubState());</div>
+<div class="line"><span class="lineno">   96</span>                    }</div>
+<div class="line"><span class="lineno">   97</span>                    <a class="code hl_function" href="../../dc/d59/a00364_a5ea0fc410da1a89eead77a9e4f969a15.html#a5ea0fc410da1a89eead77a9e4f969a15">notifyObservers</a>();</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>                } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  100</span>                    <span class="comment">//10 - 11 (y)</span></div>
+<div class="line"><span class="lineno">  101</span>                    <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &gt;= 10 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &lt;= 11 * 64) {</div>
+<div class="line"><span class="lineno">  102</span>                        GameState.setCurrentState(ControlsState.getControlsSubState());</div>
+<div class="line"><span class="lineno">  103</span>                        <a class="code hl_function" href="../../dc/d59/a00364_a5ea0fc410da1a89eead77a9e4f969a15.html#a5ea0fc410da1a89eead77a9e4f969a15">notifyObservers</a>();</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  106</span>                        <span class="comment">//11.5 - 12.5  (y)</span></div>
+<div class="line"><span class="lineno">  107</span>                        <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &gt;= 11.5 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &lt;= 12.5 * 64) {</div>
+<div class="line"><span class="lineno">  108</span>                            GameState.setCurrentState(QuitState.getQuitState());</div>
+<div class="line"><span class="lineno">  109</span>                            <a class="code hl_function" href="../../dc/d59/a00364_a5ea0fc410da1a89eead77a9e4f969a15.html#a5ea0fc410da1a89eead77a9e4f969a15">notifyObservers</a>();</div>
+<div class="line"><span class="lineno">  110</span> </div>
+<div class="line"><span class="lineno">  111</span>                        }</div>
+<div class="line"><span class="lineno">  112</span>                    }</div>
+<div class="line"><span class="lineno">  113</span>                }</div>
+<div class="line"><span class="lineno">  114</span>            }</div>
+<div class="line"><span class="lineno">  115</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  116</span>            <span class="comment">//17.5 - 18.5 (x)</span></div>
+<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a85ea1b63086b31a15d3ed2579c5715a6.html#a85ea1b63086b31a15d3ed2579c5715a6">mouseX</a> &gt;= 17.5 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a85ea1b63086b31a15d3ed2579c5715a6.html#a85ea1b63086b31a15d3ed2579c5715a6">mouseX</a> &lt;= 18.5 * 64) {</div>
+<div class="line"><span class="lineno">  118</span>                <span class="comment">//7-8 (y)</span></div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>                <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &gt;= 7 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &lt;= 8 * 64) {</div>
+<div class="line"><span class="lineno">  121</span>                    <a class="code hl_variable" href="../../dc/d59/a00364_a473de00a976ea0c6018ea1c98b7c90d3.html#a473de00a976ea0c6018ea1c98b7c90d3">playSound</a> = !<a class="code hl_variable" href="../../dc/d59/a00364_a473de00a976ea0c6018ea1c98b7c90d3.html#a473de00a976ea0c6018ea1c98b7c90d3">playSound</a>;</div>
+<div class="line"><span class="lineno">  122</span>                    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../dc/d59/a00364_a473de00a976ea0c6018ea1c98b7c90d3.html#a473de00a976ea0c6018ea1c98b7c90d3">playSound</a>) {</div>
+<div class="line"><span class="lineno">  123</span>                        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">playSoundEffect</a>(Sounds.OFF.ordinal());</div>
+<div class="line"><span class="lineno">  124</span>                        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a98b557ba5f20a876c3be2ec0b9380ada.html#a98b557ba5f20a876c3be2ec0b9380ada">stop</a>(Sounds.AMBIENT.ordinal());</div>
+<div class="line"><span class="lineno">  125</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  126</span>                        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">playSoundEffect</a>(Sounds.ON.ordinal());</div>
+<div class="line"><span class="lineno">  127</span>                        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a6986395e54db5e982d144131e9f20b38.html#a6986395e54db5e982d144131e9f20b38">playMusic</a>(Sounds.AMBIENT.ordinal());</div>
+<div class="line"><span class="lineno">  128</span>                    }</div>
+<div class="line"><span class="lineno">  129</span>                }</div>
+<div class="line"><span class="lineno">  130</span>                <span class="comment">//8.5-9.5 (y)</span></div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>                <span class="keywordflow">if</span> (this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &gt;= 8.5 * 64 &amp;&amp; this.<a class="code hl_variable" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">mouseY</a> &lt;= 9.5 * 64) {</div>
+<div class="line"><span class="lineno">  133</span>                    <a class="code hl_variable" href="../../dc/d59/a00364_a1b69671eee07fc8c47301c0042d23c77.html#a1b69671eee07fc8c47301c0042d23c77">playerWantsSaves</a> = !<a class="code hl_variable" href="../../dc/d59/a00364_a1b69671eee07fc8c47301c0042d23c77.html#a1b69671eee07fc8c47301c0042d23c77">playerWantsSaves</a>;</div>
+<div class="line"><span class="lineno">  134</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d59/a00364_a1b69671eee07fc8c47301c0042d23c77.html#a1b69671eee07fc8c47301c0042d23c77">playerWantsSaves</a>) {</div>
+<div class="line"><span class="lineno">  135</span>                        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">playSoundEffect</a>(Sounds.ON.ordinal());</div>
+<div class="line"><span class="lineno">  136</span>                    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  137</span>                        <a class="code hl_variable" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">audioHandler</a>.<a class="code hl_function" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">playSoundEffect</a>(Sounds.OFF.ordinal());</div>
+<div class="line"><span class="lineno">  138</span>                    }</div>
+<div class="line"><span class="lineno">  139</span>                }</div>
+<div class="line"><span class="lineno">  140</span>            }</div>
+<div class="line"><span class="lineno">  141</span>        }</div>
+<div class="line"><span class="lineno">  142</span> </div>
+<div class="line"><span class="lineno">  143</span>    }</div>
+<div class="ttc" id="aa00204_a57266610c9df7a305e03c12fd0fc1bb0_html_a57266610c9df7a305e03c12fd0fc1bb0"><div class="ttname"><a href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">BlueRidingHood.Audio.AudioHandler.playSoundEffect</a></div><div class="ttdeci">void playSoundEffect(int index)</div><div class="ttdoc">Pornește redarea unică a unui efect audio.</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:111</div></div>
+<div class="ttc" id="aa00204_a6986395e54db5e982d144131e9f20b38_html_a6986395e54db5e982d144131e9f20b38"><div class="ttname"><a href="../../d1/d72/a00204_a6986395e54db5e982d144131e9f20b38.html#a6986395e54db5e982d144131e9f20b38">BlueRidingHood.Audio.AudioHandler.playMusic</a></div><div class="ttdeci">void playMusic(int index)</div><div class="ttdoc">Pornește redarea în buclă a unui sunet de fundal.</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:65</div></div>
+<div class="ttc" id="aa00204_a98b557ba5f20a876c3be2ec0b9380ada_html_a98b557ba5f20a876c3be2ec0b9380ada"><div class="ttname"><a href="../../d1/d72/a00204_a98b557ba5f20a876c3be2ec0b9380ada.html#a98b557ba5f20a876c3be2ec0b9380ada">BlueRidingHood.Audio.AudioHandler.stop</a></div><div class="ttdeci">void stop(int index)</div><div class="ttdef"><b>Definition:</b> AudioHandler.java:95</div></div>
+<div class="ttc" id="aa00304_a6f7e684cb916a21dd266614760b274dd_html_a6f7e684cb916a21dd266614760b274dd"><div class="ttname"><a href="../../d8/d17/a00304_a6f7e684cb916a21dd266614760b274dd.html#a6f7e684cb916a21dd266614760b274dd">BlueRidingHood.GameWindow.GameWindow.getWindowFrame</a></div><div class="ttdeci">JFrame getWindowFrame()</div><div class="ttdoc">Returneaza referinta catre windowFrame pentru a putea adăuga un JOptionPane.</div><div class="ttdef"><b>Definition:</b> GameWindow.java:94</div></div>
+<div class="ttc" id="aa00364_a1b69671eee07fc8c47301c0042d23c77_html_a1b69671eee07fc8c47301c0042d23c77"><div class="ttname"><a href="../../dc/d59/a00364_a1b69671eee07fc8c47301c0042d23c77.html#a1b69671eee07fc8c47301c0042d23c77">BlueRidingHood.State.Game.GameState.playerWantsSaves</a></div><div class="ttdeci">static boolean playerWantsSaves</div><div class="ttdef"><b>Definition:</b> GameState.java:36</div></div>
+<div class="ttc" id="aa00364_a3637abebcaa9d04aa18b1610d0921e16_html_a3637abebcaa9d04aa18b1610d0921e16"><div class="ttname"><a href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">BlueRidingHood.State.Game.GameState.mouseY</a></div><div class="ttdeci">int mouseY</div><div class="ttdef"><b>Definition:</b> GameState.java:46</div></div>
+<div class="ttc" id="aa00364_a39eaf96958371cddfdbda6752d9dc2fb_html_a39eaf96958371cddfdbda6752d9dc2fb"><div class="ttname"><a href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">BlueRidingHood.State.Game.GameState.audioHandler</a></div><div class="ttdeci">static AudioHandler audioHandler</div><div class="ttdef"><b>Definition:</b> GameState.java:38</div></div>
+<div class="ttc" id="aa00364_a473de00a976ea0c6018ea1c98b7c90d3_html_a473de00a976ea0c6018ea1c98b7c90d3"><div class="ttname"><a href="../../dc/d59/a00364_a473de00a976ea0c6018ea1c98b7c90d3.html#a473de00a976ea0c6018ea1c98b7c90d3">BlueRidingHood.State.Game.GameState.playSound</a></div><div class="ttdeci">static boolean playSound</div><div class="ttdef"><b>Definition:</b> GameState.java:35</div></div>
+<div class="ttc" id="aa00364_a57c365550702d95472ca0e48fe8c64cc_html_a57c365550702d95472ca0e48fe8c64cc"><div class="ttname"><a href="../../dc/d59/a00364_a57c365550702d95472ca0e48fe8c64cc.html#a57c365550702d95472ca0e48fe8c64cc">BlueRidingHood.State.Game.GameState.error</a></div><div class="ttdeci">static boolean error</div><div class="ttdef"><b>Definition:</b> GameState.java:48</div></div>
+<div class="ttc" id="aa00364_a5ea0fc410da1a89eead77a9e4f969a15_html_a5ea0fc410da1a89eead77a9e4f969a15"><div class="ttname"><a href="../../dc/d59/a00364_a5ea0fc410da1a89eead77a9e4f969a15.html#a5ea0fc410da1a89eead77a9e4f969a15">BlueRidingHood.State.Game.GameState.notifyObservers</a></div><div class="ttdeci">void notifyObservers()</div><div class="ttdoc">Notifică lista de observatori.</div><div class="ttdef"><b>Definition:</b> GameState.java:141</div></div>
+<div class="ttc" id="aa00364_a85ea1b63086b31a15d3ed2579c5715a6_html_a85ea1b63086b31a15d3ed2579c5715a6"><div class="ttname"><a href="../../dc/d59/a00364_a85ea1b63086b31a15d3ed2579c5715a6.html#a85ea1b63086b31a15d3ed2579c5715a6">BlueRidingHood.State.Game.GameState.mouseX</a></div><div class="ttdeci">int mouseX</div><div class="ttdef"><b>Definition:</b> GameState.java:45</div></div>
+<div class="ttc" id="aa00364_ad4320ae13d35e2be0c2684d70c709d25_html_ad4320ae13d35e2be0c2684d70c709d25"><div class="ttname"><a href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">BlueRidingHood.State.Game.GameState.gameWindow</a></div><div class="ttdeci">static GameWindow gameWindow</div><div class="ttdef"><b>Definition:</b> GameState.java:37</div></div>
+<div class="ttc" id="aa00368_a9a2326f35466e54c36c070829245c557_html_a9a2326f35466e54c36c070829245c557"><div class="ttname"><a href="../../d8/d21/a00368_a9a2326f35466e54c36c070829245c557.html#a9a2326f35466e54c36c070829245c557">BlueRidingHood.State.Game.HomeState.name</a></div><div class="ttdeci">String name</div><div class="ttdef"><b>Definition:</b> HomeState.java:29</div></div>
+</div><!-- fragment -->
+<p class="reference">Referinţe <a class="el" href="../../db/d7b/a00296_a1e6e4ef2d787a9a3a85e8e43c1da63e3.html#a1e6e4ef2d787a9a3a85e8e43c1da63e3">Sounds.AMBIENT</a>, <a class="el" href="../../dc/d59/a00364_a39eaf96958371cddfdbda6752d9dc2fb.html#a39eaf96958371cddfdbda6752d9dc2fb">GameState.audioHandler</a>, <a class="el" href="../../dc/d59/a00364_a57c365550702d95472ca0e48fe8c64cc.html#a57c365550702d95472ca0e48fe8c64cc">GameState.error</a>, <a class="el" href="../../dc/d59/a00364_ad4320ae13d35e2be0c2684d70c709d25.html#ad4320ae13d35e2be0c2684d70c709d25">GameState.gameWindow</a>, <a class="el" href="../../d6/de1/a00356_a5aada95535aba6510403bf6e00ec3a8f.html#a5aada95535aba6510403bf6e00ec3a8f">ControlsState.getControlsSubState()</a>, <a class="el" href="../../d6/db8/a00376_afcbd5039771e97c2529b405417f638b6.html#afcbd5039771e97c2529b405417f638b6">LoadGameState.getLoadGameSubState()</a>, <a class="el" href="../../d8/ddd/a00380_afacfe8e5debcee9b0de75f9a0bb5edab.html#afacfe8e5debcee9b0de75f9a0bb5edab">LoadNoGameState.getLoadNoGameSubState()</a>, <a class="el" href="../../dd/dd7/a00260_a3612ee6d2103dfc197917b5b8bad59ce.html#a3612ee6d2103dfc197917b5b8bad59ce">Player.getPlayer()</a>, <a class="el" href="../../d9/dc1/a00388_a63b8eada6c34813fa4558656f6ec1952.html#a63b8eada6c34813fa4558656f6ec1952">PlayState.getPlayState()</a>, <a class="el" href="../../d4/d27/a00392_a06187f0e04182a044e5e2069141e8ed3.html#a06187f0e04182a044e5e2069141e8ed3">QuitState.getQuitState()</a>, <a class="el" href="../../d8/d17/a00304_a6f7e684cb916a21dd266614760b274dd.html#a6f7e684cb916a21dd266614760b274dd">GameWindow.getWindowFrame()</a>, <a class="el" href="../../d6/d43/a00216_a34a416c5ba8eee47c37323767cc962d6.html#a34a416c5ba8eee47c37323767cc962d6">DataBaseHandler.isSaved()</a>, <a class="el" href="../../dc/d59/a00364_a85ea1b63086b31a15d3ed2579c5715a6.html#a85ea1b63086b31a15d3ed2579c5715a6">GameState.mouseX</a>, <a class="el" href="../../dc/d59/a00364_a3637abebcaa9d04aa18b1610d0921e16.html#a3637abebcaa9d04aa18b1610d0921e16">GameState.mouseY</a>, <a class="el" href="../../d8/d21/a00368_a9a2326f35466e54c36c070829245c557.html#a9a2326f35466e54c36c070829245c557">HomeState.name</a>, <a class="el" href="../../dc/d59/a00364_a5ea0fc410da1a89eead77a9e4f969a15.html#a5ea0fc410da1a89eead77a9e4f969a15">GameState.notifyObservers()</a>, <a class="el" href="../../db/d7b/a00296_aba437f58ad654d395b18d209a1a8c21c.html#aba437f58ad654d395b18d209a1a8c21c">Sounds.OFF</a>, <a class="el" href="../../db/d7b/a00296_a29bb63ba715ee27a89725069074d5665.html#a29bb63ba715ee27a89725069074d5665">Sounds.ON</a>, <a class="el" href="../../dc/d59/a00364_a1b69671eee07fc8c47301c0042d23c77.html#a1b69671eee07fc8c47301c0042d23c77">GameState.playerWantsSaves</a>, <a class="el" href="../../d1/d72/a00204_a6986395e54db5e982d144131e9f20b38.html#a6986395e54db5e982d144131e9f20b38">AudioHandler.playMusic()</a>, <a class="el" href="../../dc/d59/a00364_a473de00a976ea0c6018ea1c98b7c90d3.html#a473de00a976ea0c6018ea1c98b7c90d3">GameState.playSound</a>, <a class="el" href="../../d1/d72/a00204_a57266610c9df7a305e03c12fd0fc1bb0.html#a57266610c9df7a305e03c12fd0fc1bb0">AudioHandler.playSoundEffect()</a>, <a class="el" href="../../dc/d59/a00364_a429ddd021f683daa6a0571b06cbda9d2.html#a429ddd021f683daa6a0571b06cbda9d2">GameState.setCurrentState()</a>, <a class="el" href="../../dd/dd7/a00260_a525e6ce0e4243052a6c2619dc77424e7.html#a525e6ce0e4243052a6c2619dc77424e7">Player.setUsername()</a> şi <a class="el" href="../../d1/d72/a00204_a98b557ba5f20a876c3be2ec0b9380ada.html#a98b557ba5f20a876c3be2ec0b9380ada">AudioHandler.stop()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d1/d0d/a00171.html">BlueRidingHood</a></li><li class="navelem"><b>State</b></li><li class="navelem"><a class="el" href="../../d8/d00/a00186.html">Game</a></li><li class="navelem"><a class="el" href="../../d8/d21/a00368.html">HomeState</a></li>
+    <li class="footer">Generat de <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
+</body>
+</html>
