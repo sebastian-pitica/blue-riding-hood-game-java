@@ -1,2 +1,2 @@
 # Exclude the documentatie directory from language stats
-documentatie/* linguist-documentation
+documentatie/** linguist-documentation
